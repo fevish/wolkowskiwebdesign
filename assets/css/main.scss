@@ -1,6 +1,7 @@
 ---
 ---
 // The liquid tag must remain in a scss file with the front matter or it will not work.
+$baseurl:             '{{ site.baseurl }}';
 @import "variables";
 @import "pages";
 @import "desktop";
