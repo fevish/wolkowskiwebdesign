@@ -59,7 +59,7 @@ img {
 }
 
 .scroll-first {
-  background-image: url("/assets/images/ww-bg-1.jpg");
+  background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
   min-height:100vh;
   h2 {
     color: $brand-color;
@@ -68,25 +68,25 @@ img {
   }
 }
 .scroll-second {
-  background-image: url("/assets/images/ww-bg-2.jpg");
+  background-image: url($baseurl + "/assets/images/ww-bg-2.jpg");
   min-height: 70vh;
 }
 .scroll-third {
-  background-image: url("/assets/images/ww-bg-3.jpg");
+  background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
 }
 
 .scroll-portfolio-first {
-  background-image: url("/assets/images/ww-blue-1.jpg");
+  background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
   min-height:100vh;
 }
 
 .scroll-portfolio-second {
-  background-image: url("/assets/images/ww-blue-2.jpg");
+  background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
   min-height:70vh;
 }
 
 .scroll-contact {
-  background-image: url("/assets/images/ww-bg-3.jpg");
+  background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
   min-height: 100vh;
   margin: 0;
   padding: 0;
