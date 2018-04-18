@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) {
+	.scroll {
+			background-attachment: fixed;
+		h1 {
+			font-size: 6em;
+			letter-spacing: 3px;
+		}
+	}
+	.footer {
+	background-attachment: fixed;
+  background-image: url("/assets/images/ww-bg-3.jpg");
+		img {
+			height: 50px;
+		}
+	}
+	.contactform {
+		width: 100%
+	}
+
+	.clients {
+		display: inline-flex;
+		max-width: 100%;
+	}
+
+	.box {
+		width: 300px;
+		max-height: 300px;
+		-webkit-transition: $box-transition;
+		-moz-transition: $box-transition;
+		-o-transition: $box-transition;
+		transition: $box-transition; 
+		border: 2px #000 solid;
+		border-radius: 50%;
+		justify-content: center;
+		align-items: center;
+		margin: 30px;
+		padding: 0px;
+		p {
+			visibility: hidden;
+			opacity: 0;
+			font-size: 1.1em;
+			-webkit-transition: $box-transition-2;
+			-moz-transition: $box-transition-2;
+			-o-transition: $box-transition-2;
+			transition: $box-transition-2; 
+		}
+		img {
+			padding: 0px;
+			margin: 0px;
+			border: none;
+			border-radius:50%;
+			filter: saturate(.2);
+			-webkit-transition: $box-transition;
+			-moz-transition: $box-transition;
+			-o-transition: $box-transition;
+			transition: $box-transition; 
+		}
+		hr {
+			display: none;
+			}
+	}
+	.box:hover {
+		max-height: 999px;
+		padding: 35px;
+		border-radius: 10px;
+		p {
+			visibility: visible;
+			opacity: 1;
+			-webkit-transition: $box-transition-3;
+			-moz-transition: $box-transition-3;
+			-o-transition: $box-transition-3;
+			transition: $box-transition-3; 
+		}
+		img {
+			filter: saturate(1);
+		}
+	
+	}
+}

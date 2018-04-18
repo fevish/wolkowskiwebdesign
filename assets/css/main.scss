@@ -1,0 +1,8 @@
+---
+---
+// The liquid tag must remain in a scss file with the front matter or it will not work.
+@import "variables";
+@import "pages";
+@import "desktop";
+@import "menu";
+@import "contact";

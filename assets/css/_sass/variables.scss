@@ -1,0 +1,27 @@
+// Global variables
+
+$baseurl:              "{{ site.baseurl }}";
+$base-font-family: 'Didact Gothic', sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 100;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.7;
+$letter-spacing: .6px;
+$spacing-unit:     30px;
+$content-width: 900px;
+$text-color:       #fff;
+$link-color:       #fff;
+$background-color: #333;
+$brown-color:      #4E3419;
+$placeholder-color:  #ffffff;
+$brand-color: #fff;
+$box-transition: .9s ease-in-out;
+$box-transition-2: .5s ease-in-out;
+$box-transition-3: .6s .3s ease-in-out;
+$content-link-color: #cf4545;
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@font-face {
+  font-family: Didact Gothic;
+}

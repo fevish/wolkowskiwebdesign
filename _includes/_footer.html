@@ -1,0 +1,106 @@
+<div class="scroll scroll-contact">
+  <div class="content" id="contact">
+    <h1>Contact us Today!</h1>
+    <div class="contactform">
+      <form id="formaction" method="POST">
+        <fieldset>
+          <div class="field">
+            <input type="text" name="name" placeholder="Name">
+          </div>
+
+          <div class="field">
+              <input type="email" name="_replyto" placeholder="Email">
+          </div>
+
+          <div class="field">
+              <input type="hidden" name="_subject" value="Website Contact">
+          </div>
+
+          <div class="field">
+              <textarea name="message" placeholder="Ask a question, or book a meeting today. -- If someone referred you, please let us know!"></textarea>
+          </div>
+          <input type="text" name="_gotcha" style="display:none">
+        </fieldset>
+
+        <fieldset>
+          <div class="field">
+              <input id="sendMessage" type="submit" value="Send">
+              <input type="hidden" name="_next" value="//">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+    <div class="scroll footer">
+      <a href="https://www.wolkowskiwebdesign.com"><img src="/assets/images/wolkowskiwebdesignfooter.png"></a>
+    </div>
+</div>
+</body>
+<script>
+    var formaction =  document.getElementById('formaction');
+        formaction.setAttribute('action', '//formspree.io/' + 'contact' + '@' + 'wolkowskiwebdesign' + '.' + 'com');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+      // Does a scroll target exist?
+      if (target.length) {
+
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+
+          // Callback after animation
+
+          // Must change focus!
+
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+// Navbar Script
+
+$(function() { var header = $(".navbar");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 650) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+
+
+});
+
+		</script>

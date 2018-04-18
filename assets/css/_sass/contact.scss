@@ -1,0 +1,56 @@
+input[type=text],[type=email], select, textarea {
+  color: $placeholder-color;
+  border: none;
+  border-bottom: 1px solid rgba(254, 253, 253, 1);
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font: normal normal normal 1.1em Didact Gothic, sans-serif;
+  -webkit-appearance: none;
+  border-radius: 0;
+  outline: none;
+  width: 100%;
+}
+
+input[type=submit] {
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  padding: 7px 10px;
+  border-radius: 4px;
+  border-color: $placeholder-color;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+input[type=submit]:hover {
+  background-color: $placeholder-color;
+  color: #838F84;
+}
+
+
+textarea {
+  resize: none;
+  outline: none;
+  height: 120px;
+}
+
+fieldset {
+  border: none;
+  background-color: transparent;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $placeholder-color;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $placeholder-color;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $placeholder-color;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $placeholder-color;
+}

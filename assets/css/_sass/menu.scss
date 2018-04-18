@@ -1,0 +1,106 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left :0;
+  padding: 5px;
+  color: black;
+	img {
+	display: inline;
+	vertical-align: -webkit-baseline-middle;
+	max-width: 70%;
+	}	
+}
+
+
+.fa-2x {
+	vertical-align: middle;
+	font-size: 1.7em;
+}
+
+.menu {
+	display: inline;
+ul {
+	display: block;
+	float: right;
+  margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+li {
+  list-style-type: none;
+	margin: 10px;
+	padding: 0px;
+	display:inline;
+	vertical-align: -webkit-baseline-middle;
+				}
+  a, a:visited {
+    color: $link-color;
+    text-decoration: none;
+		font-weight: 200;
+  }
+
+  a:hover {
+    color: grey;
+  }
+}
+@media only screen and (max-width: 500px) {
+}
+
+/**
+Mobile Menu View Landscape
+**/
+
+@media only screen and (max-width: 768px) and (min-width: 500px) {
+}
+
+/** 
+Menu Desktop View
+**/
+
+@media only screen and (min-width: 768px) {
+.navbar {
+	width: 100%;
+	z-index: 100;
+  position: fixed;
+	height:8vh;
+	min-height: 50px;
+  transition: 1.5s;
+	vertical-align: -webkit-baseline-middle;
+	-webkit-transition: 1.5s;
+	img {
+		height: 100%;
+		margin: 0px 0px 0px 9px;
+		padding: 0px;
+	}
+}
+
+.scrolled {
+  background-color: #222;
+	height: 5vh;
+  transition: 1.5s;
+	-webkit-transition: 1.5s;
+}
+
+
+.fa-2x {
+	vertical-align: middle;
+	font-size: 1.7em;
+}
+
+.menu {
+	float: right;
+ul {
+	display: inline-flex;
+	align-items: center;
+  margin: 0px 15px 0px 0px;
+	padding: 0px;
+}
+
+li {
+  list-style-type: none;
+	margin: 10px;
+	padding: 0px;
+	display:inline;
+				}
+}
+}
