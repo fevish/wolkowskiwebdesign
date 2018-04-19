@@ -73,6 +73,7 @@ img {
 }
 .scroll-third {
   background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
+  min-height: 70vh;
 }
 
 .scroll-portfolio-first {
@@ -84,6 +85,12 @@ img {
   background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
   min-height:70vh;
 }
+
+
+.scroll-blog {
+  background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
+  min-height:100vh;
+  }
 
 .scroll-contact {
   background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");

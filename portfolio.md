@@ -10,9 +10,14 @@ permalink: /portfolio
 				<div class="content">
 				<h2>About Me</h2>
 				<p>My name is Tuomas Wolkowski and I am a Front-End web designer + developer who is passionate about creating beautiful and functional websites.</p>
-				<p>I started Wolkowski Web Design in 2017 as a means to help local companies improve their online presense and I have since had the opportunity to work on many projects large and small ranging from <a href="#projects" onclick="return false;">local businesses</a> to <a href="#projects">promising tech-startups.</a></p> <p>	I take much pride in my work, and pay very close attention to detail. I can provide full professional website and marketing solutions all while keeping the process head-ache free for you!</p> </div> </div> <div class="scroll scroll-portfolio-second" id="projects">
+				<p>I started Wolkowski Web Design in 2017 as a means to help local companies improve their online presense and I have since had the opportunity to work on many projects large and small ranging from <a href="#projects" onclick="return false;">local businesses</a> to <a href="#projects">promising tech-startups.</a></p> <p>	I take much pride in my work, and pay very close attention to detail. I can provide full professional website and marketing solutions all while keeping the process head-ache free for you!</p> 
+</div> 
+</div> 
+
+<div class="scroll scroll-portfolio-second" id="projects">
 	<h1>Project Examples</h1>
 </div>
+
 <div class="scroll scroll-block">
 	<div class="content">
 	<h2>Clients and Projects</h2>
@@ -33,7 +38,7 @@ permalink: /portfolio
 		<div class="box">
 						<hr>
 										<a target="_blank" href="https://haste.net">
-										<img src="/assets/images/ww-haste.jpg/"></a>
+										<img src="/assets/images/ww-haste.jpg"></a>
 			<p><strong>Front-End Design + Content Creation</strong><br>Haste is a tech startup that provides a service for gamers. I assisted with the resdesign of many pages on their marketing website and created much of the content for their blog and social channels.<br><br><a target="_blank" href="https://haste.net">See Haste >></a></p>
 		</div>
 </div>
