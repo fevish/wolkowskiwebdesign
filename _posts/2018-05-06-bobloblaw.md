@@ -26,6 +26,6 @@ Telling your audience about your company, products, and/or services on your webs
 
 **Let's wrap it up already:**
 
-Creating a professional website is the start of your company's online presence, but once you are ready to start marketing your website and increase your SEO, a blog can greatly benefit your website traffic and contribute to SEO rankings.
+Creating a professional website is the start of your company's online presence, but once you are ready to start marketing your website and improve your SEO, a blog can greatly benefit your website traffic and contribute to SEO rankings.
 
 If you have any questions about integrating a blog into your webiste, or want to inquire about creating a professional website, be sure to <a href="https://wolkowskiwebdesign.com/#contact"> contact Wolkowski Web Design today</a> and we will be happy to assist you!

@@ -24,7 +24,7 @@ permalink: /articles
       {% endfor %}
 
       <h3>{{ post.title }}</h3></a>
-      <time>{{ post.date | date:"%d %b %Y" }}</time>
+      <time>{{ post.date | date:"%B %d %Y" }}</time>
         <hr>
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
     </li>
