@@ -1,6 +1,4 @@
 ---
-pages:
-- _posts/forestry-io-test.md
 hide_body: false
 is_partial: false
 fields:
@@ -13,7 +11,17 @@ fields:
   config:
     required: true
 - type: text
+  label: title
+  description: Make a Title
+  config:
+    required: true
+- type: text
   name: "/articles/"
   label: permalink
   description: Sets the URL for the file.
+  default: articles/
 - type: text
+  label: date
+  config:
+    required: true
+  description: 'Enter date as: Mm/Dd/Yy'
