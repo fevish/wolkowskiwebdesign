@@ -6,6 +6,7 @@ date: 2018-05-08 21:57:44 +0000
 description: It was popularised in the 1960s with the release of Letraset sheets containing
   Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
   PageMaker including versions of Lorem Ipsum.
+layout: article
 ---
 [pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260](https://images.pexels.com/photos/219014/pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
 
