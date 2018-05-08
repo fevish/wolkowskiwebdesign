@@ -4,6 +4,9 @@ date: 2018-05-08 21:37:22 +0000
 text: What is this for?
 text_area: Testing
 image: ''
+"/articles/": lorem-ipsum
+article: article
+undefined: ''
 ---
 ## What is Lorem Ipsum?
 
