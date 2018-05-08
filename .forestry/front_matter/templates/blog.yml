@@ -9,6 +9,11 @@ fields:
   name: article
   description: ''
   default: article
+  hidden: true
+  config:
+    required: true
 - type: text
-  name: ''
-  label: ''
+  name: "/articles/"
+  label: permalink
+  description: Sets the URL for the file.
+- type: text
