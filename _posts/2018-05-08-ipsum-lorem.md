@@ -8,7 +8,7 @@ description: It was popularised in the 1960s with the release of Letraset sheets
   PageMaker including versions of Lorem Ipsum.
 layout: article
 ---
-[pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260](https://images.pexels.com/photos/219014/pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "pexels-photo-219014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+[pexels-photo-47454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260](https://images.pexels.com/photos/47454/pexels-photo-47454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "Image")
 
 ## What is Lorem Ipsum?
 
