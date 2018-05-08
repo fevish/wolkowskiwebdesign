@@ -14,9 +14,10 @@ fields:
     required: true
 - type: text
   label: title
-  description: Make a Title
+  description: Create a title.
   config:
     required: true
+  name: title
 - type: text
   name: "/articles/"
   label: permalink
@@ -27,9 +28,11 @@ fields:
   config:
     required: true
   description: 'Enter date as: Mm/Dd/Yy'
+  name: date
 - type: textarea
   label: description
   description: Give your post a description, this will be seen on Google searches.
     (50 - 70 max recommended)
   config:
     required: false
+  name: description
