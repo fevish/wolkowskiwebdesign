@@ -4,13 +4,11 @@ pages:
 hide_body: false
 is_partial: false
 fields:
-- type: file
-  label: Image
-  name: image
-  description: The first image added will be used as a cover image for the article.
 - type: text
-  label: Text
-  name: text
-- type: textarea
-  name: text_area
-  label: Text Area
+  label: layout
+  name: article
+  description: ''
+  default: article
+- type: text
+  name: ''
+  label: ''
