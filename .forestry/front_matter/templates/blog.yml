@@ -25,3 +25,9 @@ fields:
   config:
     required: true
   description: 'Enter date as: Mm/Dd/Yy'
+- type: textarea
+  label: description
+  description: Give your post a description, this will be seen on Google searches.
+    (50 - 70 max recommended)
+  config:
+    required: false
