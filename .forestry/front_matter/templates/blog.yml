@@ -6,7 +6,7 @@ is_partial: false
 fields:
 - type: text
   label: layout
-  name: article
+  name: layout
   description: ''
   default: article
   hidden: true
