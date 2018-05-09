@@ -2,14 +2,14 @@
 {% include _blog-menu.html %}
 <div class="scroll scroll-blog">
     <div class="content article">
-        <a href="{{ site.baseurl }}/articles/" class="go-back"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
+        <a href="{{ site.baseurl }}/articles" class="go-back"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
         <br>
         <h1>{{ page.title }}</h1>
         <time>{{ page.date | date:"%B %d %Y" }}</time>
         <hr>
         {{ content }}
         <br>
-        <a href="{{ site.baseurl }}/articles/" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
+        <a href="{{ site.baseurl }}/articles" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
     </div>
 </div>
 {% include _footer.html %}
