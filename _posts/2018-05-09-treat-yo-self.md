@@ -7,8 +7,8 @@ description: Our business thrives off of word-of-mouth advertising and referrals
   If you refer a client to us and if they sign up for a website, we will reward you
   with a gift card of your choosing. Treat Yo Self!
 ---
-###### ![Treat Yo Self](https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg "Treat Yo Self - SRC: Uproxx")
-Image Credit: [Uproxx](https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg "Uproxx Article")
+![Treat Yo Self](https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg "Treat Yo Self - SRC: Uproxx")
+###### Image Credit: [Uproxx](https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg "Uproxx Article")
 
 I'm a sucker for pop-culture references. #sorrynotsorry
 
