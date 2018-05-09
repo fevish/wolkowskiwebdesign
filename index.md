@@ -14,7 +14,7 @@ description: Wolkowski Web Design is based in Medicine Hat, Alberta. We speciali
 	</div>
 </div>
 <div class="scroll scroll-second">
-	<h1>User Experience First</h1>
+	<h2 id="large-text">User Experience First</h2>
 </div>
 <div class="scroll scroll-block">
 	<div class="content">

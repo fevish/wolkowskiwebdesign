@@ -16,7 +16,7 @@ permalink: /portfolio
 </div> 
 
 <div class="scroll scroll-portfolio-second" id="projects">
-	<h1>Project Examples</h1>
+	<h2 id="large-text">Project Examples</h2>
 </div>
 
 <div class="scroll scroll-block">
