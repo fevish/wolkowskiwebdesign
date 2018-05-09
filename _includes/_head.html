@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width,intitial-scale=1">
     <!--  Essential META Tags -->
     <meta property="og:title" content="Wolkowski Web Design">
-    <meta property="og:description" content="Wolkowski Web Design specializes in creating beautiful and functional websites. We believe great marketing requires a great user experience (UX). We design with UX being the focal point of every project.">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="/images/ww-bg-2.jpg">
     <meta property="og:url" content="/">
     <meta name="twitter:card" content="summary_large_image">
