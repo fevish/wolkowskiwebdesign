@@ -5,6 +5,8 @@ title: Articles
 description: Wolkowski Web Design creates beautiful websites for clients of all sizes. Our blog contains articles about our work and services, and showcases clients and companies we work with!
 permalink: /articles
 ---
+<div class="fixed-background">
+</div>
 <div class="scroll scroll-blog">
 	<h1>Articles</h1>
 
@@ -28,7 +30,7 @@ permalink: /articles
       <h3>{{ post.title }}</h3></a>
       <time>{{ post.date | date:"%B %d %Y" }}</time>
         <hr>
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <p>{{ post.content | strip_html | truncatewords: 40 }}</p><a style="font-size: 1.2em;" href="{{ post.url }}"> Read Article</a>
     </li>
   {% endfor %}
 </ul>

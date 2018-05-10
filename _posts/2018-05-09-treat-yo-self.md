@@ -9,12 +9,19 @@ description: Our business thrives off of word-of-mouth advertising and referrals
 ---
 ![Treat Yo Self](https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg "Treat Yo Self - Credit: Uproxx")
 
-I'm a sucker for pop-culture references. #sorrynotsorry -- Parks and Recreation fans, I know it's not October 13, but you can still: **Treat Yo Self** ..with a gift card of your choosing!
+I'm a sucker for pop-culture references. #sorrynotsorry -- Parks and Recreation fans, I know it's not October 13, but you can still: **Treat Yo Self** with a gift card of your choosing.
 
-Word of mouth is the best advertising for us, and **we absolutely love referrals!!**
+Word of mouth is the best advertising for our business, and **we absolutely love referrals!!** In fact, we appreciate referrals so much that we will reward _you_ with a gift card up to $250 for every _successful referral*_ to Wolkowski Web Design.
+### *A successful referral indicates a referred client who signs up for a website or service with Wolkowski Web Design.
+
+## How does it work?
+
+If you know someone who has a website that could use a face-lift, or if you are aware of a business that needs a website, simply refer them to Wolkowski Web Design for a free quote. If they sign up for a website, then _you_ earn a gift card! Easy as that!
+
+## No referral forgotten.
 
 Whenever a new client signs up for a website package with us, we are sure to ask if anyone referred them.
-If we discover that _you_ referred Wolkowski Web Design to a client who has signed up with us, **we will happily reward _you_ with a gift card of up to $250** for a local business of your choosing!
+If we discover that _you_ referred Wolkowski Web Design, **we will reward _you_ with a gift card of up to $250** for a local business of your choosing!
 <br><br>
 
 > **Win-Win-Win**

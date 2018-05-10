@@ -6,8 +6,11 @@ permalink: /portfolio
 ---
 <div class="scroll scroll-portfolio-first">
 	<h1>Portfolio</h1>
+    <a href="#scrolled" class="scroll-down">
+        <i class="fas fa-angle-down"></i>
+    </a>
 </div>
-<div class="scroll scroll-block">
+<div class="scroll scroll-block" id="scrolled">
 				<div class="content">
 				<h2>About Me</h2>
 				<p>My name is Tuomas Wolkowski and I am a Front-End web designer + developer who is passionate about creating beautiful and functional websites.</p>

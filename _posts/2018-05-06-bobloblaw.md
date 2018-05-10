@@ -15,7 +15,7 @@ This is the first post for my blog on <a href="https://wolkowskiwebdesign.com">W
 
 In a nut-shell, a blog is a common tool for marketing and SEO (Search Engine Optimization) purposes. A blog can complement your website, and while I am not going to dive into great detail on the 'Hows' and 'Whys' in this article, I will share a couple resources that have some very thorough content on the subject (see quotes below). Additionally, a quick google search will reveal that you can easily find a <a target="_blank" href="https://www.google.com/search?q=why+are+blogs+good+for+seo%3F">plethora of articles</a> on the subject.
 
-**A couple of brief explanations:**
+## A couple of brief explanations
 
 <blockquote cite="https://moz.com/blog/category/blogging">Blogs are one of the most popular forms of content marketing. That's probably because adding a blog to your site can be an extremely successful way to add timely content, attract engagement, and naturally increase your keyword relevance.<br>( <a target="_blank" href="https://moz.com/blog/category/blogging">Moz.com | Blogging</a> )</blockquote>
 
@@ -25,7 +25,7 @@ Blogs are a great option to share content with your clients and customers. A blo
 
 Telling your audience about your company, products, and/or services on your website and social channels can be an easy task with a well-formed blog. Plus creating content isn't as cumbersome as some people believe it to be -- there are millions of copywriters available for hire, many of whom can quickly pump out premium content for affordable prices (I've personally worked with various copywriter freelancers and content creation companies).
 
-**Let's wrap it up already:**
+## Let's wrap it up already
 
 Creating a professional website is the start of your company's online presence, but once you are ready to start marketing your website and improve your SEO, a blog can greatly benefit your website traffic and contribute to SEO rankings.
 

@@ -3,25 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: $base-font-family;
-  background: $background-color;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  a, a:visited {
-    color: $brand-color;
-    text-decoration: none;
-		font-weight: 600;
-    -webkit-transition: .15s ease-in-out;
-    transition: .15s ease-in-out;
-  }
-  a:hover {
-    color: $link-hover-color;
-  }
-	:focus {
-    outline: none;
-}
+    margin: 0px;
+    padding: 0px;
+    font-family: $base-font-family;
+    background: $background-color;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    a, a:visited {
+        color: $brand-color;
+        text-decoration: none;
+        font-weight: 600;
+        -webkit-transition: .15s ease-in-out;
+        transition: .15s ease-in-out;
+    }
+    a:hover {
+        color: $link-hover-color;
+    }
+    :focus {
+        outline: none;
+    }
 }
 
 img {
@@ -30,6 +30,7 @@ img {
 }
 
 /* Scroll Effect */
+
 
 .scroll {
 	background-attachment: scroll;
@@ -102,6 +103,23 @@ img {
   margin: 0 auto 0 auto;
   justify-content: center;
   align-items: center;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 10vh;
+    font-size: 3em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.scroll-down:visited {
+    color: #fff;
+}
+
+.scroll-down:hover {
+    bottom: 9vh;
+    color: #fff;
 }
 
 #contact {
