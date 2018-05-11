@@ -14,19 +14,7 @@ permalink: /articles
 <ul>
   {% for post in site.posts %}
     <li><a href="{{ post.url }}">
-      {% assign foundImage = 0 %}
-      {% assign images = post.content | split:"<img " %}
-      {% for image in images %}
-        {% if image contains 'src' %}
-
-            {% if foundImage == 0 %}
-                {% assign html = image | split:"/>" | first %}
-                <img {{ html }} />
-                {% assign foundImage = 1 %}
-            {% endif %}
-        {% endif %}
-      {% endfor %}
-
+    <img src="{{ post.image }}" alt="{{ post.image-alt }}" title="{{ post.image-title }}">
       <h3>{{ post.title }}</h3></a>
       <time>{{ post.date | date:"%B %d %Y" }}</time>
         <hr>

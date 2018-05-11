@@ -8,6 +8,7 @@
         <h1>{{ page.title }}</h1>
         <time>{{ page.date | date:"%B %d %Y" }}</time>
         <hr>
+        <p><img src="{{ page.image }}" alt="{{ page.image-alt }}"></p>
         {{ content }}
         <br>
         <a href="{{ site.baseurl }}/articles" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>

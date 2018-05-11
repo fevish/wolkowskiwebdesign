@@ -17,8 +17,16 @@
     <!--  Essential META Tags -->
     <meta property="og:title" content="Wolkowski Web Design">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="/images/ww-bg-2.jpg">
-    <meta property="og:url" content="/">
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:locale" content="en_US" />
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image }}" />
+    <meta name="twitter:image" content="{{ page.image }}" />
+    {% else %}
+    <meta property="og:image" content="/images/ww-bg-2.jpg"/>
+    <meta name="twitter:image" content="/images/ww-bg-2.jpg"/>
+    {% endif %}
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="twitter:card" content="summary_large_image">
     <!--  Non-Essential, But Recommended -->
     <meta property="og:site_name" content="Wolkowski Web Design">

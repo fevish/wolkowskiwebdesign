@@ -6,9 +6,10 @@ date: 2018-05-09 20:39:09 +0000
 description: Our business thrives off of word-of-mouth advertising and referrals.
   If you refer a client to us and if they sign up for a website, we will reward you
   with a gift card of your choosing. Treat Yo Self!
+image: https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg 
+image-alt: Treat Yo Self - Donna and Tom Parks and Recreation
+image-title: Treat Yo Self
 ---
-![Treat Yo Self](https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg "Treat Yo Self - Credit: Uproxx")
-
 I'm a sucker for pop-culture references. #sorrynotsorry -- Parks and Recreation fans, I know it's not October 13, but you can still: **Treat Yo Self** with a gift card of your choosing.
 
 Word of mouth is the best advertising for our business, and **we absolutely love referrals!!** In fact, we appreciate referrals so much that we will reward _you_ with a gift card up to $250 for every _successful referral*_ to Wolkowski Web Design.

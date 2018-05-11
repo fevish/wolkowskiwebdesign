@@ -5,11 +5,13 @@ title: Bob Loblaw's Law Blog
 permalink: articles/bob-loblaws-law-blog
 description: First! I finally created a blog for my Website Design company as a means to showcase to my clients just how feasible and valuable a blog can be for SEO and marketing purposes.
 date: 2018-05-06 
+image: https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2Fd1f1a560183a8e88de5a1cc08708e246%2F201232584%2Fbobloblaw.png&client=cbc79c14efcebee57402&signature=8c1c06f5e31d69c26f5fad3098529190447839e7
+image-alt: Bob Loblaw's Law
+image-title: Bob LobLaw
 ---
-![Bob LobLaw's Law](https://o.aolcdn.com/images/dims?quality=100&image_uri=http%3A%2F%2Fo.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2Fd1f1a560183a8e88de5a1cc08708e246%2F201232584%2Fbobloblaw.png&client=cbc79c14efcebee57402&signature=8c1c06f5e31d69c26f5fad3098529190447839e7 "Bob LobLaw")
 
 
-Admittedly <a target="_blank" href="https://bob-loblaws-law-blog.blogspot.ca/">not an original title for a blog post</a>, I just couldn't resist tossing in a tribute to one of my favourite Netflix OG shows (Arrested Development if you missed the reference -- also, this blog has nothing to do with the law).
+Admittedly <a target="_blank" href="https://bob-loblaws-law-blog.blogspot.ca/">not an original title for a blog post</a>, I just could't resist tossing in a tribute to one of my favourite Netflix OG shows (Arrested Development if you missed the reference -- also, this blog has nothing to do with the law).
 
 This is the first post for my blog on <a href="https://wolkowskiwebdesign.com">Wolkowski Web Design</a>, and, if you are reading this, you might be wondering: *What is the purpose of a blog, and how does it benefit my website?*
 
