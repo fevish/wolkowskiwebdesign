@@ -2,6 +2,7 @@
   <div class="content" id="contact">
     <h2 id="large-text">Contact us Today!</h2>
     <div class="contactform">
+        <!-- Commenting out while testing liveform 30 day trial
       <form id="formaction" method="POST">
         <fieldset>
           <div class="field">
@@ -17,7 +18,7 @@
           </div>
 
           <div class="field">
-              <textarea name="message" placeholder="Ask a question, or book a meeting today. -- If someone referred you, please let us know!"></textarea>
+              <textarea name="message" placeholder="Ask a question, or book a meeting today. If someone referred you, please let us know!"></textarea>
           </div>
           <input type="text" name="_gotcha" style="display:none">
         </fieldset>
@@ -29,6 +30,34 @@
           </div>
         </fieldset>
       </form>
+        -->
+      <!--
+          Live For HQ Form
+      -->
+      <fieldset>
+      <form action="https://liveformhq.com/form/7c774adb-96e1-4ed8-bc6b-e7477a8f684e" method="POST" accept-charset="utf-8">
+          <input type="hidden" name="_utf8" value="✓">
+
+          <!--
+              NOTE: This is an optional field, if your form has a field named '_redirect',
+              The user will be redirected to this page after the submission is saved
+          -->
+
+          <div class="field">
+          <input type="text" id="name" name="name" placeholder="Name">
+          </div>
+
+          <input type="text" id="email" name="email" placeholder="Email">
+          
+          <input type="text" id="phone" name="phone" placeholder="Phone Number - Please leave your number if you want a call back.">
+          <textarea name="message" placeholder="Ask a question, or book a meeting today. -- If someone referred you, please let us know!"></textarea>
+
+          <div class="g-recaptcha" data-sitekey="6LeZ91gUAAAAABzm6UbjTI6mY5TFHWzHJrFwMcz3"></div>
+          <br>
+
+          <input type="submit" value="Send">
+      </form>
+      </fieldset>
     </div>
   </div>
 </div>

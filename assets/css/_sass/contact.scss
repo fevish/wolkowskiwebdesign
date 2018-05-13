@@ -2,8 +2,6 @@ input[type=text],[type=email], select, textarea {
   color: $placeholder-color;
   border: none;
   border-bottom: 1px solid rgba(254, 253, 253, 1);
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -12,9 +10,11 @@ input[type=text],[type=email], select, textarea {
   border-radius: 0;
   outline: none;
   width: 100%;
+  margin-bottom: 5px;
 }
 
 input[type=submit] {
+    margin-top: 10px;
   color: white;
   background-color: transparent;
   border-style: solid;
@@ -23,6 +23,8 @@ input[type=submit] {
   border-color: $placeholder-color;
   cursor: pointer;
   font-size: 1.1em;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
 }
 
 input[type=submit]:hover {
@@ -53,4 +55,9 @@ fieldset {
 }
 :-moz-placeholder { /* Firefox 18- */
   color: $placeholder-color;
+}
+
+.g-recaptcha {
+    display: inline-block;
+    margin: 10px;
 }
