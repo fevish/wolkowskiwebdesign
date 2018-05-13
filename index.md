@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Websites Done The Right Way
+title: Websites Done Right
 description: Wolkowski Web Design is based in Medicine Hat, Alberta. We specialize in creating beautiful, responsive, and functional professional Web Sites.
 ---
 <div class="scroll scroll-first">
