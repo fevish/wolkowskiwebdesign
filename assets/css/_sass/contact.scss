@@ -32,6 +32,16 @@ input[type=submit]:hover {
   color: #838F84;
 }
 
+input[type=submit]:disabled {
+  opacity: 0.5;
+  color: $disabled-color;
+  background-color: transparent;
+  border-color: $disabled-color;
+  cursor: no-drop;
+  font-size: 1.1em;
+  -webkit-transition: 0.5s ease all;
+  transition: 0.5s ease all;
+}
 
 textarea {
   resize: none;
