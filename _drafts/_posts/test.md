@@ -46,5 +46,12 @@ Wolkowski Web Design specializes in facilitating all aspects of our clients onli
 
 Our process for a new client generally consists of a few easy steps (as coordinated by us):
 
-* Create a beautiful, functional and responsive Website.
-* Use our professional photographers for content
+* Create a Marketing Plan
+  * Create a beautiful, functional and responsive website
+    * Buy domain name "**YourBussinessName.com**"
+    * Plan website design
+    * Gather and/or create content for web design
+    * Use our photographers for personalized content where applicable
+    * Provide SEO
+    * Put website together and launch
+  * Social
