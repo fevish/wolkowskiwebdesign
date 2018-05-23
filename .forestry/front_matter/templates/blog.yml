@@ -1,6 +1,4 @@
 ---
-pages:
-- _posts/2018-05-09-treat-yo-self.md
 hide_body: false
 is_partial: false
 fields:
@@ -36,3 +34,12 @@ fields:
   config:
     required: false
   name: description
+- type: text
+  label: image
+  name: image
+  description: Cover image for article.
+  default: "{{ site.baseurl }}/assets/uploads/"
+  config:
+    required: true
+pages:
+- _posts/2018-05-09-treat-yo-self.md
