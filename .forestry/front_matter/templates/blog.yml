@@ -54,4 +54,5 @@ fields:
   label: image-title
   description: Title of Image (SEO)
 pages:
+- _posts/test.md
 - _posts/2018-05-09-treat-yo-self.md
