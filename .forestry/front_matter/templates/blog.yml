@@ -41,5 +41,9 @@ fields:
   default: "{{ site.baseurl }}/assets/uploads/"
   config:
     required: true
+- type: text
+  label: image-alt
+  name: image-alt
+  description: Alternate Text for Image
 pages:
 - _posts/2018-05-09-treat-yo-self.md
