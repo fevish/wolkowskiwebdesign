@@ -37,11 +37,12 @@ fields:
 - type: file
   label: image
   name: image
+  description: Cover Image - Drag and Drop an Image
 - type: text
   label: image
   name: image
-  description: Cover image for article.
-  default: "{{ site.baseurl }}/assets/uploads/"
+  description: Cover Image ( External URL )
+  default: ''
   config:
     required: true
 - type: text
