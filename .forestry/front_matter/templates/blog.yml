@@ -41,10 +41,10 @@ fields:
 - type: text
   label: image
   name: image
-  description: Cover Image ( External URL )
+  description: Cover Image - External URL
   default: ''
   config:
-    required: true
+    required: false
 - type: text
   label: image-alt
   name: image-alt
