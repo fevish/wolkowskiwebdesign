@@ -40,6 +40,11 @@ While this is entirely understandable, let me reassure you: Inbound marketing do
 
 There are many companies and individuals with expertise who can help you communicate your company's message, and accurately portray your brand on a professional level. 
 
-## Shameless Plug
+## Shameless Plug - Our Process
 
-Wolkowski Web Design specializes in facilitating all aspects of your businesses online presence. 
+Wolkowski Web Design specializes in facilitating all aspects of our clients online presence and can provide relevant inbound marketing solutions for your business and brand needs. Our process is straightforward and we pride ourselves on making it as seamless and headache-free for you.
+
+Our process for a new client generally consists of a few easy steps (as coordinated by us):
+
+* Create a beautiful, functional and responsive Website.
+* Use our professional photographers for content
