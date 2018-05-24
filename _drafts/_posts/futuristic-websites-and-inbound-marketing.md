@@ -1,7 +1,7 @@
 ---
 title: Futuristic Websites and Inbound Marketing
 layout: article
-"/articles/": articles/
+"/articles/": articles/futuristic-marketing
 date: 2018-05-24 15:09:37 -0600
 image: http://www.syfy.com/sites/syfy/files/styles/1140x640/public/2017/10/futurama-mobile-game.jpg?itok=onFOS2mk
 description: If your business doesn't have an online presence, then you are missing
