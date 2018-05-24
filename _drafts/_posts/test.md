@@ -22,7 +22,7 @@ Online Marketing! (More accurately referred to as "Inbound Marketing"). Inbound 
 
 > **Inbound marketing** is a strategy that focuses on attracting customers, or leads, via company-created Internet content, thereby having potential customers come to the company rather than **marketers** vying for their attention.
 >
-> \( [TechTarget SearchCRM](https://searchcrm.techtarget.com/definition/inbound-marketing "Inbound Marketing Description") )
+> \( [TechTarget SearchCRM](https://searchcrm.techtarget.com/definition/inbound-marketing "Inbound Marketing Description"){:target="_blank"} )
 
 Just a few examples of Inbound Marketing Content tactics include:
 
