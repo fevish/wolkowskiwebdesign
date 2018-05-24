@@ -10,7 +10,7 @@ image: https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg
 image-alt: Treat Yo Self - Donna and Tom Parks and Recreation
 image-title: Treat Yo Self
 ---
-I'm a sucker for pop-culture references. #sorrynotsorry -- Parks and Recreation fans, I know it's not October 13, but you can still: **Treat Yo Self** with a gift card of your choosing.
+I'm a sucker for pop-culture references. #sorrynotsorry -- Parks and Recreation fans, it may not be October 13, but you can still: **Treat Yo Self** with a gift card of your choosing.
 
 Word of mouth is the best advertising for our business, and **we absolutely love referrals!!** In fact, we appreciate referrals so much that we will reward _you_ with a gift card up to $250 for every _successful referral*_ to Wolkowski Web Design.
 ### *A successful referral indicates a referred client who signs up for a website or service with Wolkowski Web Design.

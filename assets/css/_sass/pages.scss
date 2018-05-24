@@ -130,13 +130,12 @@ img {
 /* Content */
 
 .content {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   text-align: center;
-	margin:15px 0px 15px 0px;
+	margin:15px 15px 15px 15px;
 
 	h2 {
 		margin: 0px;
+    margin-bottom: 20px;
 		padding: 0px;
 		font-size: 1.5em;
     text-transform: capitalize;
@@ -146,7 +145,7 @@ img {
     font-size: 1.3em;
     line-height: 1.6em;
     color: #000;
-		margin: 15px 15px 15px 15px;
+		margin: 10px;
   }
 }
 
