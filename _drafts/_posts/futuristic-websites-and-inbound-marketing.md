@@ -36,7 +36,7 @@ Inbound marketing is best described:
 >
 > \( [TechTarget SearchCRM](https://searchcrm.techtarget.com/definition/inbound-marketing "Inbound Marketing Description"){:target="_blank"} )
 
-Inbound marketing is about creating content that connects to your clients and customer base on a personal level in a targeted manner.
+Inbound marketing is about creating content that connects to your clients and customer-base on a personal level in a targeted manner.
 
 ## Inbound Marketing doesn't have to be scary
 
