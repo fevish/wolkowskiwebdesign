@@ -68,7 +68,9 @@ Our process for a new client generally consists of a few **easy steps** (as coor
 * Continual analytics for website
 * Continual SEO and keyword optimization
 
-Ok, maybe "**easy steps"** is a stretch. But this list is more or less the basics of what is involved in creating a professional website that accurately represents your business and brand, and the marketing options that follow.
+Ok, maybe "**easy steps"** is a stretch, but this list is more or less the basics of what is involved in creating a professional website that accurately represents your business and brand, and the marketing options that follow.
+
+Creating a quality website is an important first step to begin your online marketing, and one that Wolkowski Web Design is an expert at facilitating! If you have any questions about this article, or are interested in marketing your business online, we invite you to [contact us today](/#contact "contact us") and we are happy to talk!
 
 <hr>
 
