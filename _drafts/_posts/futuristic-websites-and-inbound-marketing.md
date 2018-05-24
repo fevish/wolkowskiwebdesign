@@ -20,19 +20,23 @@ The problem is if a customer has difficulty finding your business within their f
 
 ## The solution? Online Marketing!
 
-Or, more accurately referred to as "Inbound Marketing". Inbound marketing is best described:
-
-> **Inbound marketing** is a strategy that focuses on attracting customers, or leads, via company-created Internet content, thereby having potential customers come to the company rather than **marketers** vying for their attention.
->
-> \( [TechTarget SearchCRM](https://searchcrm.techtarget.com/definition/inbound-marketing "Inbound Marketing Description"){:target="_blank"} )
-
-Just a few examples of Inbound Marketing Content tactics include:
+Or, more accurately referred to as "Inbound Marketing". Inbound Marketing tactics include:
 
 * A Website that is **functional and SEO friendly**
 * A Blog with quality posts
 * Search Engine Optimization
 * Social Media
 * Email Marketing
+
+The Facebook or Twitter post you clicked to get to this blog is a form of inbound marketing content. This website and the article you are reading right now itself is inbound marketing.
+
+Inbound marketing is best described:
+
+> **Inbound marketing** is a strategy that focuses on attracting customers, or leads, via company-created Internet content, thereby having potential customers come to the company rather than **marketers** vying for their attention.
+>
+> \( [TechTarget SearchCRM](https://searchcrm.techtarget.com/definition/inbound-marketing "Inbound Marketing Description"){:target="_blank"} )
+
+Inbound marketing is about creating content that connects to your clients and customer base on a personal level in a targeted manner.
 
 ## Inbound Marketing doesn't have to be scary
 
