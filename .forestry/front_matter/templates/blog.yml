@@ -17,7 +17,7 @@ fields:
     required: true
   name: title
 - type: text
-  name: "/articles/"
+  name: permalink
   label: permalink
   description: Sets the URL for the file.
   default: articles/
