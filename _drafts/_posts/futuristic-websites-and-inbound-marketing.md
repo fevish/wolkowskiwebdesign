@@ -9,6 +9,7 @@ description: If your business doesn't have an online presence, then you are miss
   an important first step to start marketing online.
 image-alt: Futurama - Bender, Fry and Leela
 image-title: Futurama Image
+permalink: articles/futuristic-marketing
 ---
 If you are a business **of any size** _without_ an online presence, then chances are **very high** that you are missing out on opportunties to connect with your customers.
 
@@ -40,7 +41,7 @@ Inbound marketing is about creating content that connects to your clients and cu
 
 ## Inbound Marketing doesn't have to be scary
 
-Many business owners whom I've personally dealt with often have a common trait: 
+Many business owners whom I've personally dealt with often have a common trait:
 
 #### I don't know _how_ to market online, thus I am afraid _to_ market online.
 
@@ -63,6 +64,7 @@ Our process for a new client generally consists of a few easy steps (as coordina
     * Provide SEO
     * Put website together and launch
   * Social
+    * Create relevant social media accounts
 
 <hr>
 
