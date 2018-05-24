@@ -7,8 +7,8 @@ image: http://www.syfy.com/sites/syfy/files/styles/1140x640/public/2017/10/futur
 description: If your business doesn't have an online presence, then you are missing
   out on opportunities to connect with your customers. Creating a great website is
   an important first step to start marketing online.
-image-alt: ''
-image-title: ''
+image-alt: Futurama - Bender, Fry and Leela
+image-title: Futurama Image
 ---
 If you are a business **of any size** _without_ an online presence, then chances are **very high** that you are missing out on opportunties to connect with your customers.
 
