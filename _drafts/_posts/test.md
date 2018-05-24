@@ -2,9 +2,9 @@
 title: Futuristic Websites [Inbound Marketing]
 layout: article
 "/articles/": articles/temp-test
-date: 05/23/2018
+date: 2018-05-24 00:00:00 +0000
 description: Testing
-image: ''
+image: http://www.syfy.com/sites/syfy/files/styles/1140x640/public/2017/10/futurama-mobile-game.jpg?itok=onFOS2mk
 image-alt: WWD
 image-title: WWD Title
 ---
@@ -48,7 +48,7 @@ Our process for a new client generally consists of a few easy steps (as coordina
 
 * Create a Marketing Plan
   * Create a beautiful, functional and responsive website
-    * Buy domain name "**YourBussinessName.com**"
+    * Buy domain name "**YourBusinessName.com**"
     * Plan website design
     * Gather and/or create content for web design
     * Use our photographers for personalized content where applicable
