@@ -40,7 +40,9 @@ Inbound marketing is about creating content that connects to your clients and cu
 
 ## Inbound Marketing doesn't have to be scary
 
-Many business owners whom I've personally dealt with often have a common trait: They don't know _how_ to market online, thus they are afraid _to_ market online.
+Many business owners whom I've personally dealt with often have a common trait: 
+
+#### They don't know _how_ to market online, thus they are afraid _to_ market online.
 
 While this is entirely understandable, let me reassure you: Inbound marketing doesn't have to be scary, nor does it have to be expensive!
 
