@@ -53,18 +53,22 @@ There are many companies and individuals with expertise who can help you communi
 
 Wolkowski Web Design specializes in facilitating all aspects of our clients online presence and can provide relevant inbound marketing solutions for your business and brand needs. Our process is straightforward and we pride ourselves on making it as seamless and headache-free for you.
 
-Our process for a new client generally consists of a few easy steps (as coordinated by us):
+Our process for a new client generally consists of a few **easy steps** (as coordinated by us):
 
-* Create a Marketing Plan
-  * Create a beautiful, functional and responsive website
-    * Buy domain name "**YourBusinessName.com**"
-    * Plan website design
-    * Gather and/or create content for web design
-    * Use our photographers for personalized content where applicable
-    * Provide SEO
-    * Put website together and launch
-  * Social
-    * Create relevant social media accounts
+* Create a beautiful, functional and responsive website
+  * Register domain name "**YourBusinessName.com**"
+  * Plan website design
+  * Gather and/or create content for web design
+  * Use photographers for personalized content where applicable
+  * Make website search engine optimized
+  * Put everything together and launch
+* Set up relevant social media accounts (if applicable)
+* Create regular quality content
+* Google business listing
+* Continual analytics for website
+* Continual SEO and keyword optimization
+
+Ok, maybe "**easy steps"** is a stretch. But this list is more or less the basics of what is involved in creating a professional website that accurately represents your business and brand, and the marketing options that follow.
 
 <hr>
 
