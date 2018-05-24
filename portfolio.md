@@ -27,7 +27,7 @@ permalink: /portfolio
 	<h2>Clients and Projects</h2>
 	<p>Here are some examples of projects that I have had the opportunity to be a part of.</p>
 </div>
-	<div class="content clients">
+	<div class="clients">
 					<div class="box">
 									<hr>
 									<a target="_blank" href="https://www.hatliquor.ca">
