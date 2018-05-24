@@ -24,7 +24,7 @@ fields:
 - type: text
   label: date
   config:
-    required: true
+    required: false
   description: ''
   name: date
 - type: textarea
