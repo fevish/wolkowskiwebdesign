@@ -58,4 +58,4 @@ Our process for a new client generally consists of a few easy steps (as coordina
     * Put website together and launch
   * Social
 
-##### Image Credit: SyFy
+##### Image Credit: [SyFy](http://www.syfy.com/futurama){:target="_blank"}
