@@ -14,9 +14,9 @@ If you are a business **of any size** _without_ an online presence, then chances
 
 ## It's the future
 
-It's 2018. Most people have access to the internet via a plethora of devices. Moreover, when someone wants to look up your phone number or get information on a service you offer, chances are they will default to an online search via Google or Facebook to look for you.
+It's 2018. Most people have access to the internet via a plethora of devices. Moreover, when someone wants to look up your phone number or get information on a service you offer, chances are they will default to an online search via Google or Facebook.
 
-The problem is if a customer has difficulty finding your business within their first few searches, it can be a significant turn off. Even worse yet, if they come across a **competitor first**, then you risk losing a potential opportunity.
+The problem is if a customer has difficulty finding your business within their first few searches, it can be a significant turn off. Worse yet, if they come across a **competitor first**, then you risk losing a potential opportunity.
 
 ## The solution? Online Marketing!
 
