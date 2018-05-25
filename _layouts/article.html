@@ -10,8 +10,13 @@
         <hr>
         <p><img src="{{ page.image }}" alt="{{ page.image-alt }}"></p>
         {{ content }}
+        <div class="social-sharing">
+        Find this article interesting?
         <br>
-        <a href="{{ site.baseurl }}/articles" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}" target="_blank"><i class="fab fa-2x fa-facebook-square"></i> Share This</a> &nbsp;&nbsp;
+        <a href="https://twitter.com/home?status=%0A{{ site.url }}%0A" target="_blank"><i class="fab fa-2x fa-twitter-square"></i> Tweet This</a>
+        </div>
+         <a href="{{ site.baseurl }}/articles" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
     </div>
 </div>
 {% include _footer.html %}
