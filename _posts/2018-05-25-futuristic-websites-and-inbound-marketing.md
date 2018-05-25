@@ -21,11 +21,10 @@ The problem is if a customer has difficulty finding your business within their f
 
 ## The solution? Online Marketing!
 
-Or, more accurately referred to as "Inbound Marketing". Inbound Marketing tactics include content marketing through:
+Or, more specifically, "Inbound Marketing". Inbound Marketing tactics include content marketing through:
 
 * A Website that is **functional and SEO friendly**
 * A Blog with quality articles and content
-* Search Engine Optimization
 * Social Media
 * Email Marketing
 
