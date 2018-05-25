@@ -31,8 +31,6 @@ Or, more accurately referred to as "Inbound Marketing". Inbound Marketing tactic
 
 The Facebook or Twitter post you clicked to get to this blog is a form of inbound marketing content. This website and the article you are reading right now itself is inbound marketing.
 
-Inbound marketing is best described:
-
 > **Inbound marketing** is a strategy that focuses on attracting customers, or leads, via company-created Internet content, thereby having potential customers come to the company rather than **marketers** vying for their attention.
 >
 > \( [TechTarget SearchCRM](https://searchcrm.techtarget.com/definition/inbound-marketing "Inbound Marketing Description"){:target="_blank"} )
