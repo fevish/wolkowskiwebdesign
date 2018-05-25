@@ -17,7 +17,7 @@ If you are a business **of any size** _without_ an online presence, then chances
 
 It's 2018. Most people have access to the internet via a plethora of devices. Moreover, when someone wants to look up your phone number or get information on a service you offer, chances are they will default to an online search via Google or Facebook.
 
-The problem is if a customer has difficulty finding your business within their first few searches, it can be a significant turn off. Worse yet, if they come across a **competitor first**, then you risk losing a potential opportunies.
+The problem is if a customer has difficulty finding your business within their first few searches, it can be a significant turn off. Worse yet, if they come across a **competitor first**, then you risk losing potential opportunies.
 
 ## The solution? Online Marketing!
 
@@ -70,7 +70,7 @@ Our process for a new client generally consists of a few **easy steps** (as coor
 
 Ok, maybe "**easy steps"** is a stretch, but this list contains more or less the basics of what is involved in creating a professional website that accurately represents your business and brand, and the marketing options that follow.
 
-Creating a quality website is an important first step to begin your online marketing, and one that Wolkowski Web Design is an expert at facilitating! If you have any questions about this article, or are interested in marketing your business online, we invite you to [contact us today](/#contact "contact us") and we are happy to talk!
+Creating a quality website is an important first step to begin your online marketing, and one that Wolkowski Web Design is an expert at facilitating! If you have any questions about this article, or are interested in marketing your business online, [we would love to chat with you today](/#contact "contact us")!
 
 <hr>
 
