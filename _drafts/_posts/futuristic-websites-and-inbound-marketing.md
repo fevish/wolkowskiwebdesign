@@ -51,7 +51,7 @@ There are many companies and individuals with expertise who can help you communi
 
 ## Shameless Plug - Our Process
 
-Wolkowski Web Design specializes in facilitating all aspects of our clients online presence and can provide relevant inbound marketing solutions for your business and brand needs. Our process is straightforward and we pride ourselves on making it as seamless and headache-free for you.
+Wolkowski Web Design specializes in facilitating all aspects of our client's online presence and can provide relevant inbound marketing solutions for your business and brand needs. Our process is straightforward and we pride ourselves on making it as seamless and headache-free for you.
 
 Our process for a new client generally consists of a few **easy steps** (as coordinated by us):
 
