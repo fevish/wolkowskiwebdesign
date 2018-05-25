@@ -29,7 +29,7 @@ Or, more accurately referred to as "Inbound Marketing". Inbound Marketing tactic
 * Social Media
 * Email Marketing
 
-The Facebook or Twitter post you clicked to get to this blog is a form of inbound marketing content. This website and the article you are reading right now itself is inbound marketing.
+The Facebook or Twitter post you clicked to get to this blog is a form of inbound marketing content. This website and the article you are reading right now are a form of inbound marketing content.
 
 > **Inbound marketing** is a strategy that focuses on attracting customers, or leads, via company-created Internet content, thereby having potential customers come to the company rather than **marketers** vying for their attention.
 >
