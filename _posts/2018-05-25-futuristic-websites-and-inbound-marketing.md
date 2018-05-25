@@ -67,7 +67,9 @@ Our process for a new client generally consists of a few **easy steps** (as coor
 
 Ok, maybe "**easy steps"** is a stretch, but this list contains more or less the basics of what is involved in creating a professional website that accurately represents your business and brand, and the marketing options that follow.
 
-Creating a quality website is an important first step to begin your online marketing, and Wolkowski Web Design is the perfect choice to get you started. If you have any questions about this article, or are interested in marketing your business online, [we would love to chat with you today](/#contact "contact us")!
+Creating a quality website is an important first step to begin your online marketing, and Wolkowski Web Design is the perfect choice to get you started with your futuristic website and marketing needs!
+
+If you have any questions about this article, or are interested in marketing your business online, [we would love to chat with you today](/#contact "contact us")!
 
 <hr>
 
