@@ -28,8 +28,8 @@
     <meta property="og:image" content="{{ page.image }}" />
     <meta name="twitter:image" content="{{ page.image }}" />
     {% else %}
-    <meta property="og:image" content="/images/ww-bg-2.jpg"/>
-    <meta name="twitter:image" content="/images/ww-bg-2.jpg"/>
+    <meta property="og:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
     {% endif %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <meta name="twitter:card" content="summary_large_image">
