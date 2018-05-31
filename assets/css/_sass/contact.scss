@@ -1,7 +1,7 @@
 input[type=text],[type=email], select, textarea {
   color: $placeholder-color;
   border: none;
-  border-bottom: 1px solid rgba(254, 253, 253, 1);
+  border-bottom: 1px solid $placeholder-color;
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -9,13 +9,13 @@ input[type=text],[type=email], select, textarea {
   -webkit-appearance: none;
   border-radius: 0;
   outline: none;
-  width: 100%;
+  width: 95%;
   margin-bottom: 5px;
 }
 
 input[type=submit] {
     margin-top: 10px;
-  color: white;
+  color: $placeholder-color;
   background-color: transparent;
   border-style: solid;
   padding: 7px 10px;
