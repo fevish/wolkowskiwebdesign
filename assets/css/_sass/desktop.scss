@@ -1,10 +1,10 @@
 @media only screen and (min-width: 768px) {
-  padding: 35px 5px 35px 5px;
 	.scroll {
 			background-attachment: fixed;
 		h1, #large-text {
 			font-size: 6em;
 			letter-spacing: 3px;
+      padding: 35px 5px 35px 5px;
 		}
 	}
 	.footer {
@@ -19,7 +19,6 @@
 		width: 100%;
     padding: 15px 5px;
 	}
-
 
 	.box {
 		width: 300px;
