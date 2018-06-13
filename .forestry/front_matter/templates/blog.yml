@@ -54,6 +54,7 @@ fields:
   label: image-title
   description: Title of Image (SEO)
 pages:
+- _posts/todaya-post.md
 - _posts/hello.md
 - _posts/2018-05-25-futuristic-websites-and-inbound-marketing.md
 - _posts/2018-05-09-treat-yo-self.md
