@@ -54,7 +54,6 @@ fields:
   label: image-title
   description: Title of Image (SEO)
 pages:
-- _posts/joel-is-my-best-friend-our-frienship-never-ends.md
 - _posts/2018-05-09-treat-yo-self.md
 - _posts/2018-05-25-futuristic-websites-and-inbound-marketing.md
 - _posts/todaya-post.md
