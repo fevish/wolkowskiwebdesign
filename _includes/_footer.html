@@ -1,9 +1,9 @@
-    <div class="scroll footer">
+    <div class="parallax-main footer">
         <a href="https://www.wolkowskiwebdesign.com"><img src="{{ site.baseurl }}/assets/images/wolkowskiwebdesignfooter.png"></a>
     </div>
 </div>
+</section>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 // Select all links with hashes
 $('a[href*="#"]')
@@ -29,7 +29,7 @@ $('a[href*="#"]')
             event.preventDefault();
             $('html, body').animate({
                 scrollTop: target.offset().top
-            }, 1000, function() {
+            }, 900, function() {
 
                 // Callback after animation
 
@@ -51,7 +51,7 @@ $('a[href*="#"]')
 
 // Navbar Script
 
-$(function() { var header = $(".navbar");
+$(function() { var header = $(".navbar-custom");
 
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();

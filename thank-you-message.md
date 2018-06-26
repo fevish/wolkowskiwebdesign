@@ -4,7 +4,7 @@ title: Thanks For The Message
 permalink: /thank-you-message
 ---
 
-<div class="scroll scroll-first">
+<div class="parallax-main parallax-first">
   <h1>Message Received!</h1>
 
 <div class="content thank-you">

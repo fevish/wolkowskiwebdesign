@@ -7,8 +7,8 @@ permalink: /articles
 ---
 <div class="fixed-background">
 </div>
-<div class="scroll scroll-blog">
-	<h1>Articles</h1>
+<div class="parallax-main parallax-blog">
+	<h1 class="articles-h1">Articles</h1>
 
     <div class="content article-list">
 <ul>

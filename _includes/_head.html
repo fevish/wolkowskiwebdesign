@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8"/>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115588119-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-115588119-1');
-</script>
-<title>{{ page.title }} | {{ site.title }}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="Wolkowski Web Design">
-    <meta name="google-site-verification" content="nfQqoe9TSpUHEB17MSLhboN2SJLDxv-uzSlPUO05dWQ" />
-    <meta name="viewport" content="width=device-width,intitial-scale=1">
-    <!--  Essential META Tags -->
-    {% if page.title %}
-    <meta content="{{ page.title }}" property="og:title">
-    {% else %}
-    <meta content="{{ site.title }}" property="og:title">
-    {% endif %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:locale" content="en_US" />
-    {% if page.image %}
-    <meta property="og:image" content="{{ page.image }}" />
-    <meta name="twitter:image" content="{{ page.image }}" />
-    {% else %}
-    <meta property="og:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
-    <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
-    {% endif %}
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <meta name="twitter:card" content="summary_large_image">
-    <!--  Non-Essential, But Recommended -->
-    <meta name="twitter:image:alt" content="Wolkowski Web Design">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/assets/css/main.css" media="all" rel="stylesheet" type="text/css">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#ffffff">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script>
+    <head>
+        <meta charset="utf-8"/>
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta name="author" content="Wolkowski Web Design">
+        <meta name="google-site-verification" content="nfQqoe9TSpUHEB17MSLhboN2SJLDxv-uzSlPUO05dWQ" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--  Essential META Tags -->
+        {% if page.title %}
+        <meta content="{{ page.title }}" property="og:title">
+        {% else %}
+        <meta content="{{ site.title }}" property="og:title">
+        {% endif %}
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta property="og:site_name" content="{{ site.title }}" />
+        <meta property="og:locale" content="en_US" />
+        {% if page.image %}
+        <meta property="og:image" content="{{ page.image }}" />
+        <meta name="twitter:image" content="{{ page.image }}" />
+        {% else %}
+        <meta property="og:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
+        <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
+        {% endif %}
+        <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+        <meta name="twitter:card" content="summary_large_image">
+        <!--  Non-Essential, But Recommended -->
+        <meta name="twitter:image:alt" content="Wolkowski Web Design">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" media="all" type="text/css">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00aba9">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115588119-1"></script>
+        <script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-115588119-1');
+        </script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <script>
 function enableSubmit() {
     var input = document.getElementById('form_submit');
     input.disabled = false;
     input.title = '';
 }
-    </script>
-	</head>
+        </script>
+    </head>

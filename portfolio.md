@@ -5,25 +5,25 @@ description: We are a Medicine Hat based Website Design company that works with 
   on projects large and small internationally. See our portfolio today!
 permalink: "/portfolio"
 ---
-<div class="scroll scroll-portfolio-first">
-<h1>Portfolio</h1>
-<a href="#scrolled" class="scroll-down">
+<div class="parallax-main parallax-portfolio-first">
+<h1>About us</h1>
+<a href="#scrolldown" class="chevron-down">
 <i class="fas fa-angle-down"></i>
 </a>
 </div>
-<div class="scroll scroll-block" id="scrolled">
+<div class="parallax-main parallax-block" id="scrolldown">
 <div class="content">
-<h2>About Me</h2>
+<h2>Introduction</h2>
 <p>My name is Tuomas Wolkowski and I am a Front-End web designer + developer who is passionate about creating beautiful and functional websites.</p>
 <p>I started Wolkowski Web Design in 2017 as a means to help local companies improve their online presense and I have since had the opportunity to work on many projects large and small ranging from <a href="#projects" onclick="return false;">local businesses</a> to <a href="#projects">promising tech-startups.</a></p> <p>	I take much pride in my work, and pay very close attention to detail. I can provide full professional website and marketing solutions all while keeping the process head-ache free for you!</p>
 </div>
 </div>
 
-<div class="scroll scroll-portfolio-second" id="projects">
+<div class="parallax-main parallax-portfolio-second" id="projects">
 <h2 id="large-text">Project Examples</h2>
 </div>
 
-<div class="scroll scroll-block">
+<div class="parallax-main parallax-block">
 <div class="content">
 <h2>Clients and Projects</h2>
 <p>Here are some examples of projects that I have had the opportunity to be a part of.</p>

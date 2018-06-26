@@ -6,12 +6,11 @@
     height: 100%;
     z-index: -10;
 }
-.scroll-blog {
-    min-height:100vh;
+.parallax-blog {
     padding-bottom: 150px;
     h1 {
-        margin-top: 150px;
-        margin-bottom: 150px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
 
@@ -73,6 +72,8 @@
         font-size: 1.7em;
         font-weight: 200;
         text-transform: capitalize;
+        color: #000;
+        text-shadow: none;
     }
     h5 {
         margin-top: 5px;

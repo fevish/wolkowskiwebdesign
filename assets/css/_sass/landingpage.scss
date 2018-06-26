@@ -1,0 +1,264 @@
+.lp-nav {
+    z-index:200;
+    position: fixed;
+    top: 10%;
+    left: 25px;
+}
+
+.nav-link {
+    content: "";
+    padding: 10px 25px !important;
+    margin: 5px;
+    border-radius: 0;
+    border: 2px solid $light-color;
+    background-color: $dark-color;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+
+a.nav-link p{
+    display: none;
+}
+
+a.nav-link:hover p {
+    display: normal;
+}
+
+a.nav-link.active {
+}
+
+.active, a.nav-link:hover, a.nav-link:active {
+    transition: .5s ease;
+    background-color: $main-color;
+    border: 2px solid $light-color;
+    content: "";
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+}
+
+.sticky-text {
+    position: absolute;
+    z-index: -1;
+}
+
+.parallax-lp {
+    text-align: center;
+    height: 100vh;
+    h1, #large-text {
+        font-family: $lp-font-1;
+        font-weight: 400;
+        margin-top: 0x;
+    }
+    h2 {
+        font-family: $lp-font-2;
+        font-size: 2em;
+        color: #fff;
+        margin: 0px;
+        padding: 30px;
+        line-height: 1.8em;
+    }
+}
+
+.parallax-block-lp {
+    padding: 55px 0 0 0;
+    background-color: $dark-color;
+    height: 100%;
+    .content-lp {
+        text-align: center;
+        p {
+            color: $light-color;
+            font-family: $lp-font-3;
+            margin: 10px;
+            font-size: 1.3em;
+        }
+        h2 {
+            font-family: $lp-font-1;
+            color: $light-color;
+            font-size: 2.7em;
+            text-shadow: none;
+        }
+    }
+}
+.parallax-block-lp-2 {
+    background-color: $main-color;
+    width: 100%;
+    .content-lp {
+        margin: 0 auto;
+        padding: 25px;
+        p {
+            color: $light-color;
+        }
+        h3 {
+            font-family: $lp-font-2;
+            color: $light-color;
+            font-size: 1.7em;
+            padding-top: 15px;
+        }
+        .lp-card {
+            background: $dark-color;
+            padding: 25px;
+            border: 2px solid #000;
+            border-radius: 5px;
+            margin: 10px;
+            min-height: 400px;
+        }
+    }
+}
+
+.angle {
+    position: fixed;
+    z-index: -2;
+    bottom: 0px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 450px solid $dark-color;
+    border-left: 100vw solid transparent;
+}
+
+.scroll-shape {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.scroll-shape:before {
+    position: fixed;
+    content: "";
+    display: block;
+    z-index: -1;
+    width: 1400px;
+    height: 100vh;
+    opacity: 1;
+    background-color: $main-color;
+    -webkit-transform: skew(80deg);
+    -moz-transform: skew(80deg);
+    -o-transform: skew(80deg);
+}
+.square-shape {
+}
+
+.square-shape:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: -100;
+    width: 100%;
+    height: 100px;
+    opacity: 1;
+    background-color: $main-color;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+
+.parallax-background {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    z-index: -100;
+    background-image: $bg-image;
+    background-size: cover;
+    background-position: center center;
+    -webkit-filter: brightness(.85);
+    -moz-filter: brightness(.85);
+    -o-filter: brightness(.85);
+    -ms-filter: brightness(.75);
+    filter:blur(0px) brightness(.35);
+}
+.lp-button {
+    button {
+        background: none;
+        margin: 55px;
+        font-family: $lp-font-2;
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: 600;
+        color: $light-color;
+        padding: 8px;
+        border: 2px solid $light-color;
+        border-radius: 10px;
+        transition: .5s ease-out;
+        outline: none;
+    }
+    button:hover {
+        color: $main-color;
+        border-color: $main-color;
+        transition: .5s ease-out;
+    }
+    button:focus {
+        outline: none;
+    }
+}
+
+.parallax-contact-lp {
+    background: #000;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+// Landing Page Contact
+
+.lp-contact {
+    input[type=text],[type=email], select, textarea {
+        color: $placeholder-color;
+        border: none;
+        border-bottom: 1px solid $placeholder-color;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        font: normal normal normal 1.1em Didact Gothic, sans-serif;
+        -webkit-appearance: none;
+        border-radius: 0;
+        outline: none;
+        width: 95%;
+        margin-bottom: 5px;
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        color: $placeholder-color;
+        background-color: transparent;
+        border-style: solid;
+        padding: 7px 10px;
+        border-radius: 4px;
+        border-color: $placeholder-color;
+        cursor: pointer;
+        font-size: 1.1em;
+        -webkit-transition: 0.5s ease all;
+        transition: 0.5s ease all;
+    }
+
+    input[type=submit]:hover {
+        background-color: $placeholder-color;
+        color: #838F84;
+    }
+
+    input[type=submit]:disabled {
+        opacity: 0.5;
+        color: $disabled-color;
+        background-color: transparent;
+        border-color: $disabled-color;
+        cursor: no-drop;
+        font-size: 1.1em;
+        -webkit-transition: 0.5s ease all;
+        transition: 0.5s ease all;
+    }
+
+    textarea {
+        resize: none;
+        outline: none;
+        height: 120px;
+    }
+
+    fieldset {
+        border: none;
+        background-color: transparent;
+    }
+}

@@ -1,4 +1,4 @@
-.navbar {
+.navbar-custom {
   position: absolute;
   top: 0;
   left :0;
@@ -63,7 +63,7 @@ Menu Desktop View
 **/
 
 @media only screen and (min-width: 768px) {
-.navbar {
+.navbar-custom {
 	width: 100%;
 	z-index: 100;
   position: fixed;
@@ -85,7 +85,6 @@ Menu Desktop View
   transition: 1.5s;
 	-webkit-transition: 1.5s;
 }
-
 
 .fa-2x {
 	vertical-align: middle;
