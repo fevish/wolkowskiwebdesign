@@ -10,11 +10,11 @@
     padding: 10px 25px !important;
     margin: 5px;
     border-radius: 0;
-    border: 2px solid $light-color;
     background-color: $dark-color;
+    box-shadow: 2px 2px 2px $light-color;
     -webkit-transform: skew(-20deg);
-    -moz-transform: skew(10deg);
-    -o-transform: skew(10deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
 }
 
 a.nav-link p{
@@ -28,14 +28,20 @@ a.nav-link:hover p {
 a.nav-link.active {
 }
 
-.active, a.nav-link:hover, a.nav-link:active {
+a.nav-link:hover, a.nav-link:active {
+    background-color: $main-color;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+}
+
+.active {
     transition: .5s ease;
     background-color: $main-color;
-    border: 2px solid $light-color;
     content: "";
     -webkit-transform: skew(20deg);
-    -moz-transform: skew(10deg);
-    -o-transform: skew(10deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
 }
 
 .sticky-text {
