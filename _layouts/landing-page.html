@@ -7,6 +7,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
+<style>
+body::-webkit-scrollbar {
+    display: none;
+}
+</style>
 <body data-spy="scroll" data-target="#lp-nav" data-offset="0">
 {{ content }}
 {% include _lp-contact.html %}
@@ -21,9 +26,18 @@ AOS.init({
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
 <script>
-$(function() {
-    $.scrollify({
-        section : ".scroll-to",
+if (screen && screen.width < 768) {
+    $(function() {
+        $.scrollify.disable()
     });
-});
+}
+else {
+    $(function() {
+        $.scrollify({
+            section : ".scroll-to",
+            setHeights: true,
+            overflowScroll: true,
+        });
+    });
+}
 </script>
