@@ -152,34 +152,6 @@ img {
     bottom: 9vh;
 }
 
-.scroll-down {
-    max-width: 170px;
-    padding: 8px;
-    border: 2px solid $light-color-2;
-    border-radius: 10px;
-    margin: 150px auto 0 auto;
-    a p {
-        font-family: $lp-font-2;
-        font-size: 34px;
-        line-height: 34px;
-        font-weight: 100;
-        color: $light-color-2;
-        display: inline;
-    }
-    transition: .15s ease-out;
-    a:visited {
-        color: $light-color;
-    }
-
-    a:hover {
-        color: $light-color;
-        text-decoration: none;
-    }
-}
-
-.scroll-down:hover {
-    margin-top: 155px;
-}
 
 
 #contact {

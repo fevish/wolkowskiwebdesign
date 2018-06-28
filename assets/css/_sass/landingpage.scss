@@ -69,8 +69,8 @@ a.nav-link:hover {
         font-family: $lp-font-2;
         font-size: 2em;
         color: #fff;
-        margin: 0px;
-        padding: 30px;
+        margin: 0 auto;
+        padding: 15px;
         line-height: 1.8em;
     }
 }
@@ -122,12 +122,33 @@ a.nav-link:hover {
     }
 }
 
-.scroll-shape {
+.header-shape {
+    position: relative;
+    max-width: 700px;
+    max-height: 250px;
+}
+
+.header-shape:before {
+    z-index: -1;
+    position: absolute;
+    top:0px;
+    left:0px;
+    content: "";
+    background-color: $main-color;
+    height:100%;
+    width:100%;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+}
+                            
+
+.old-scroll-shape {
     position: absolute;
     top: 0px;
     left: 0px;
 }
-.scroll-shape:before {
+.old-scroll-shape:before {
     position: fixed;
     content: "";
     display: block;
@@ -187,6 +208,39 @@ a.nav-link:hover {
     -webkit-transition: height .75s ease !important;
     -o-transition: height .75s ease !important;
     transition: height .75s ease !important;
+}
+
+.scroll-down {
+    max-width: 170px;
+    padding: 8px;
+    border: 2px solid $light-color-2;
+    border-radius: 10px;
+    margin: 150px auto 0 auto;
+    a {
+        font-family: $lp-font-2;
+        font-size: 34px;
+        line-height: 34px;
+        font-weight: 100;
+        color: $light-color-2;
+        display: inline;
+    }
+    transition: .15s ease-out;
+    a:visited {
+        color: $light-color;
+    }
+
+    a:hover {
+        color: $main-color;
+        text-decoration: none;
+    }
+}
+
+.scroll-down:hover {
+    margin-top: 155px;
+    border-color: $main-color;
+    a {
+        color: $main-color;
+    }
 }
 
 .lp-testimonials {
