@@ -251,7 +251,7 @@ a.nav-link:hover {
     }
     transition: .15s ease-out;
     a:visited {
-        color: $light-color;
+        color: $dark-color;
     }
 
     a:hover {
@@ -443,6 +443,20 @@ a.nav-link:hover {
         border: none;
         background-color: transparent;
         font-family: $lp-font-2;
+    }
+}
+
+.credit {
+    h6 {
+        color: $dark-color;
+        font-weight: 200;
+        font-size: .7em;
+    }
+    a {
+        text-decoration: none !important;
+    }
+    a:hover {
+        color: $main-color;
     }
 }
 @media screen and (max-width: 768px) {
