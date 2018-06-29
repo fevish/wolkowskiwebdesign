@@ -7,14 +7,14 @@
 }
 
 .scroll-background {
-    width: 100%;
+    width: 100vw;
     animation: move 40s ease;
     /* Add infinite to loop. */
-
-    -ms-animation: move 40s ease;
-    -webkit-animation: move 40s ease;
-    -0-animation: move 40s ease;
-    -moz-animation: move 40s ease;
+    -ms-animation: move 40s ease infinite;
+    -webkit-animation: move 40s ease infinite;
+    -0-animation: move 40s ease infinite;
+    -moz-animation: move 40s ease infinite;
+    animation-direction: alternate;
     position: absolute;
 }
 

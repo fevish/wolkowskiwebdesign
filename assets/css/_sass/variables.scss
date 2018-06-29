@@ -1,6 +1,4 @@
 // Global variables
-
-
 $base-font-family: 'Didact Gothic', sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 100;
@@ -23,20 +21,22 @@ $box-transition-3: .6s .3s ease-in-out;
 $disabled-color: #5a5a5a;
 
 // Landing Page
-// $main-color: #ff0c0c;
+$main-color: #ff0c0c;
 // $main-color: #0cb0ff;
-$main-color: #ff3a3a;
+// $main-color: #ff3a3a;
 $light-color: #000;
 $light-color-2: #efefef;
 $dark-color: #efefef;
 $lp-font-1: Permanent Marker;
-$lp-font-2: Gloria Hallelujah;
+$lp-font-2: Permanent Marker;
 $lp-font-3: Lato;
-$bg-image: url($baseurl + "/assets/images/white-bricks.jpg");
+$bg-image: url($baseurl + "/assets/images/stormy-bg.jpg");
+$bg-image-3: url($baseurl + "/assets/images/white-bricks.jpg");
 $bg-image-2: url($baseurl + "/assets/images/time-lapse.jpg");
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Lato|Rock+Salt|Didact+Gothic|Open+Sans|Nothing+You+Could+Do|Roboto:100,400,800');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Lato|Didact+Gothic|Open+Sans|Nothing+You+Could+Do|Roboto:100,400,800|Oswald:400,600|Bangers');
+
 @font-face {
   font-family: Didact Gothic;
 }
