@@ -1,19 +1,10 @@
-.image-wrap {
-    width: 100%;
-    height: 50vw;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
-
 .scroll-background {
-    width: 100vw;
-    animation: move 40s ease;
+    animation: move 100s ease;
     /* Add infinite to loop. */
-    -ms-animation: move 40s ease infinite;
-    -webkit-animation: move 40s ease infinite;
-    -0-animation: move 40s ease infinite;
-    -moz-animation: move 40s ease infinite;
+    -ms-animation: move 100s ease infinite;
+    -webkit-animation: move 100s ease infinite;
+    -0-animation: move 100s ease infinite;
+    -moz-animation: move 100s ease infinite;
     animation-direction: alternate;
     position: absolute;
 }
@@ -25,17 +16,17 @@
         -ms-transform-origin: bottom right;
         -o-transform-origin: bottom right;
         transform-origin: bottom right;
-        transform: scale(1.0);
-        -ms-transform: scale(1.0);
+        transform: scale(1.15);
+        -ms-transform: scale(1.15);
         /* IE 9 */
 
-        -webkit-transform: scale(1.0);
+        -webkit-transform: scale(1.15);
         /* Safari and Chrome */
 
-        -o-transform: scale(1.0);
+        -o-transform: scale(1.15);
         /* Opera */
 
-        -moz-transform: scale(1.0);
+        -moz-transform: scale(1.15);
         /* Firefox */
     }
     100% {

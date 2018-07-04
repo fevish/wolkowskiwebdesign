@@ -3,8 +3,8 @@
 .lp-nav {
     z-index:200;
     position: fixed;
-    top: 50px;
-    right: 50px;
+    top: 25px;
+    right: 25px;
     flex-direction: column;
 }
 
@@ -46,21 +46,21 @@ a.nav-link:hover {
     z-index: -80;
     background-image: $bg-image;
     background-size: cover;
-    background-position: 20%;
+    background-position: 15%;
     background-repeat: no-repeat;
-    -webkit-filter: brightness(.35);
+    -webkit-filter: grayscale(100) brightness(.35);
     -moz-filter: brightness(.35);
     -o-filter: brightness(.35);
     -ms-filter: brightness(.35);
-    filter:brightness(.35);
+    filter: grayscale(100) brightness(.35);
 }
 
-.blur {
+.testimonial-bg {
     position: absolute;
     top:0;
-    left:0;
-    width: 100vw;
-    height: 100%;
+    left:-1%;
+    width: 105%;
+    height: 105%;
     display: block;
     z-index: 0;
     background-image: $bg-image;
@@ -71,7 +71,7 @@ a.nav-link:hover {
     -moz-filter:blur (3px) brightness(.35);
     -o-filter:blur(3px) brightness(.35);
     -ms-filter:blur (3px) brightness(.35);
-    filter:blur(3px) brightness(.35);
+    filter:blur(2px) brightness(.15);
 }
 
 
@@ -83,17 +83,8 @@ a.nav-link:hover {
     min-height: 500px;
     h1, #large-text {
         font-family: $lp-font-1;
-        font-weight: 400;
-        margin-top: 0x;
-    }
-    h2 {
-        font-family: $lp-font-2;
-        font-size: 2em;
         font-weight: 200;
-        color: #fff;
-        margin: 55px auto;
-        line-height: 1.8em;
-        max-width: 420px;
+        margin-top: 0x;
     }
 }
 
@@ -109,16 +100,9 @@ a.nav-link:hover {
             margin: 10px;
             font-size: 1.3em;
         }
-        h2 {
-            font-family: $lp-font-1;
-            color: $light-color;
-            font-size: 2.7em;
-            text-shadow: none;
-        }
     }
 }
 .parallax-block-lp-2 {
-    background-color: lighten($main-color,12%);
     margin: 0 auto;
     .content-lp {
         margin: 0 auto;
@@ -135,17 +119,38 @@ a.nav-link:hover {
         .lp-card {
             background: $dark-color;
             padding: 25px;
-            border: 2px solid #000;
+            box-shadow: 5px 5px 15px $light-color;
             border-radius: 5px;
-            margin: 10px auto;
+            margin: 10px 25px;
+            transform: $lp-skew;
+            -webkit-transform: $lp-skew;
+            -moz-transform: $lp-skew;
+            -o-transform: $lp-skew;
+            transition: .7s ease-in-out;
             min-height: 400px;
+            min-width: 450px;
         }
+        .lp-card:hover {
+            z-index: 200;
+            box-shadow: 1px 1px 15px $light-color;
+            transform: $lp-unskew;
+            -webkit-transform: $lp-unskew;
+            -moz-transform: $lp-unskew;
+            -o-transform: $lp-unskew;
+        }
+
     }
 }
 
 .header-shape {
     z-index: 1;
     position: relative;
+    color: $light-color;
+    font-family: $lp-font-2;
+    font-size: 2.7em;
+    text-shadow: none;
+    margin: 25px auto;
+    max-width: 600px;
 }
 
 .header-shape:before {
@@ -206,13 +211,12 @@ a.nav-link:hover {
 
 // Section 2 Button 
 .lp-button {
+    margin: 15px;
     button {
         background: none;
-        margin: 55px;
-        font-family: $lp-font-2;
-        font-size: 34px;
+        margin-top: 55px;
+        font: $lp-font-button;
         line-height: 34px;
-        font-weight: 600;
         color: $light-color;
         padding: 8px;
         border: 2px solid $light-color;
@@ -236,31 +240,21 @@ a.nav-link:hover {
 }
 
 .scroll-down {
-    padding: 8px;
-    border: 2px solid $light-color-2;
-    border-radius: 10px;
-    margin: 150px auto 0 auto;
-    a {
-        font-family: $lp-font-2;
-        font-size: 34px;
-        line-height: 34px;
-        font-weight: 100;
-        color: $light-color-2;
-        display: inline;
-    }
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    left: 0;
+    right: 0;
+    bottom: 5%;
     transition: .15s ease-out;
-    a:visited {
-        color: $dark-color;
-    }
-
-    a:hover {
-        color: $main-color;
-        text-decoration: none;
-    }
+    button {
+    color: $dark-color;
+    border-color: $dark-color;
+}
 }
 
 .scroll-down:hover {
-    margin-top: 155px;
     border-color: $main-color;
     a {
         color: $main-color;
@@ -270,21 +264,13 @@ a.nav-link:hover {
 .lp-testimonials {
     position: relative;
     margin: 0 auto;
-    padding: 150px 0 55px 0;
-    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
     p {
         color: $dark-color;
         font-family: $lp-font-3;
         margin: 10px;
         font-size: 1.3em;
-    }
-    h2 {
-        font-family: $lp-font-1;
-        color: $dark-color;
-        font-size: 2.7em;
-        text-shadow: none;
-        margin-bottom: 25px;
-        max-width: 400px;
     }
     h3 {
         color: $dark-color;
@@ -313,19 +299,27 @@ a.nav-link:hover {
 
 .quote {
     margin: 25px;
-    border-right: 5px solid lighten($main-color,8%);
+    border-right: 5px solid darken($main-color,5%);
     p {
         font-size: 1.1em;
     }
     h3 {
         font-size: 1.3em;
         margin-right: 10px;
+        font-family: $lp-font-4;
+        font-weight: 200;
     }
 }
 
+.lp-name {
+    font-family: $lp-font-3;
+    font-weight: 600;
+    font-size: .9em;
+}
+
 .parallax-contact-lp {
-    background: #000;
-    min-height: 100vh;
+    background: $dark-color;
+    height: 90vh;
     margin: 0;
     padding: 0;
     border: none;
@@ -387,31 +381,32 @@ a.nav-link:hover {
 // Landing Page Contact
 
 .lp-contact {
+    h3 {
+        font-family: $lp-font-2;
+        color: $light-color;
+        font-size: 1.7em;
+        padding: 25px;
+    }
+    box-shadow: 2px 2px 8px $light-color;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 40vw;
     input[type=text],[type=email], select, textarea {
         color: $placeholder-color;
         border: none;
         border-bottom: 1px solid $placeholder-color;
-        background-color: transparent;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -webkit-appearance: none;
-        border-radius: 0;
         outline: none;
-        width: 95%;
         margin-bottom: 5px;
-        font-family: $lp-font-2;
+        font: $lp-font-4;
     }
 
     input[type=submit] {
         margin-top: 10px;
         color: $placeholder-color;
-        background-color: transparent;
         border-style: solid;
         padding: 7px 10px;
         border-radius: 4px;
         border-color: $placeholder-color;
-        cursor: pointer;
-        font-size: 1.1em;
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
     }
@@ -427,7 +422,6 @@ a.nav-link:hover {
         background-color: transparent;
         border-color: $disabled-color;
         cursor: no-drop;
-        font-size: 1.1em;
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
     }
@@ -435,14 +429,14 @@ a.nav-link:hover {
     textarea {
         resize: none;
         outline: none;
-        height: 120px;
-        font-family: $lp-font-2;
+        min-height: 120px;
+        font: $lp-font-4;
     }
 
     fieldset {
         border: none;
         background-color: transparent;
-        font-family: $lp-font-2;
+        font: $lp-font-4;
     }
 }
 
@@ -453,10 +447,11 @@ a.nav-link:hover {
         font-size: .7em;
     }
     a {
+        color: $dark-color !important;
         text-decoration: none !important;
     }
     a:hover {
-        color: $main-color;
+        color: $main-color !important;
     }
 }
 @media screen and (max-width: 768px) {
@@ -496,11 +491,22 @@ a.nav-link:hover {
     }
     .lp-card {
         padding: 2px;
+        transform: none !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        -o-transform: none !important;
+        min-width: 100% !important;
+        min-height: auto !important;
+
     }
     .square-shape:before {
         height: 155px;
     }
     .parallax-lp {
         overflow-x: hidden;
+    }
+    .lp-contact {
+        max-width: 95%;
+        height: 100vh;
     }
 }
