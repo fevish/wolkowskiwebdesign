@@ -1,7 +1,8 @@
+
 // Nav
 
 .lp-nav {
-    z-index:200;
+    z-index:5;
     position: fixed;
     top: 25px;
     right: 25px;
@@ -36,14 +37,13 @@ a.nav-link:hover {
     -o-transform: skew(20deg);
 }
 
-
 .parallax-background {
     position: absolute;
     background-attachment: fixed;
     max-width: 100%;
     width:100%;
     min-height: 100%;
-    z-index: -80;
+    z-index: -1;
     background-image: $bg-image;
     background-size: cover;
     background-position: left;
@@ -60,16 +60,16 @@ a.nav-link:hover {
     background-attachment: fixed;
     width: 100%;
     height: 100%;
-    z-index: 0;
+    z-index: 1;
     background-image: $bg-image;
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    transform: scale(1);
-    -webkit-filter:blur(10px);
+    -webkit-filter:blur(11px);
     -moz-filter:blur (10px);
     -o-filter:blur(10px);
     -ms-filter:blur (10px);
+    filter: url('blur.svg#blur');
     filter:blur(10px);
 }
 
@@ -89,7 +89,7 @@ a.nav-link:hover {
 .parallax-block-lp {
     overflow: hidden;
     background-color: $dark-color;
-    min-height: 100vh;
+    min-height: 70vh;
     hr {
         border-top: 1px solid lighten($light-color,40%);
     }
@@ -123,6 +123,7 @@ a.nav-link:hover {
             padding: 25px;
             box-shadow: 2px 2px 5px $light-color;
             margin: 10px auto;
+            min-width: 420px;
             transform: $lp-skew;
             -webkit-transform: $lp-skew;
             -moz-transform: $lp-skew;
@@ -130,7 +131,7 @@ a.nav-link:hover {
             transition: .7s ease-in-out;
         }
         .lp-card:hover {
-            z-index: 200;
+            z-index: 5;
             box-shadow: 1px 1px 15px $light-color;
             transform: $lp-unskew;
             -webkit-transform: $lp-unskew;
@@ -181,7 +182,7 @@ a.nav-link:hover {
     position: fixed;
     content: "";
     display: block;
-    z-index: -1;
+    z-index: 0;
     width: 1400px;
     height: 100vh;
     opacity: 1;
@@ -270,7 +271,7 @@ a.nav-link:hover {
 .lp-testimonials {
     position: relative;
     background-attachment: fixed;
-    min-height: 90vh;
+    min-height: 50vh;
     background-image: $bg-image; 
     p {
         color: $dark-color;
@@ -508,7 +509,7 @@ a.nav-link:hover {
         height: 155px;
     }
     .parallax-lp {
-        overflow-x: hidden;
+        z-index: 2;
     }
     .lp-contact {
         max-width: 95%;
