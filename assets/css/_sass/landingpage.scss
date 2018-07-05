@@ -65,7 +65,7 @@ a.nav-link:hover {
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    -webkit-filter:blur(11px);
+    -webkit-filter:blur(10px);
     -moz-filter:blur (10px);
     -o-filter:blur(10px);
     -ms-filter:blur (10px);
@@ -525,3 +525,14 @@ a.nav-link:hover {
         width: 100% !important;
     }
 }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .parallax-main, .lp-testimonials {
+        background-attachment: scroll;
+    }
+}
+@supports (-ms-ime-align:auto) {
+    .testimonial-bg, .parallax-main, .lp-testimonials {
+        background-attachment: scroll;
+    }
+}
+
