@@ -1,10 +1,24 @@
+.bg-wrap {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-wrap-2 {
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 100;
+    position:relative;
+    padding: 35px;
+}
+
 .scroll-background {
-    animation: move 100s ease;
+    animation: move 50s ease;
     /* Add infinite to loop. */
-    -ms-animation: move 100s ease infinite;
-    -webkit-animation: move 100s ease infinite;
-    -0-animation: move 100s ease infinite;
-    -moz-animation: move 100s ease infinite;
+    -ms-animation: move 50s ease infinite;
+    -webkit-animation: move 50s ease infinite;
+    -0-animation: move 50s ease infinite;
+    -moz-animation: move 50s ease infinite;
     animation-direction: alternate;
     position: absolute;
 }
