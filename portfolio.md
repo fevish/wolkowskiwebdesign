@@ -18,7 +18,7 @@ permalink: "/portfolio"
 <div class="content">
 <h2>Introduction</h2>
 <p>My name is Tuomas Wolkowski and I am a Front-End web designer + developer who is passionate about creating beautiful and functional websites.</p>
-<p>I started Wolkowski Web Design in 2017 as a means to help local companies improve their online presense and I have since had the opportunity to work on many projects large and small ranging from <a href="#projects" onclick="return false;">local businesses</a> to <a href="#projects">promising tech-startups.</a></p> <p>	I take much pride in my work, and pay very close attention to detail. I can provide full professional website and marketing solutions all while keeping the process head-ache free for you!</p>
+<p>I started Wolkowski Web Design in 2017 as a means to help local companies improve their online presence and I have since had the opportunity to work on many projects large and small ranging from <a href="#projects" onclick="return false;">local businesses</a> to <a href="#projects">promising tech-startups.</a></p> <p>	I take much pride in my work, and pay very close attention to detail. I can provide full professional website and marketing solutions all while keeping the process head-ache free for you!</p>
 </div>
 </div>
 </div>
