@@ -23,6 +23,11 @@ body {
     }
 }
 
+// Fixes IE flex issue, must be set to parent container of flex items/divs
+.ie-11 {
+    display: flex;
+}
+
 img {
     image-rendering: -webkit-optimize-contrast;
     max-width: 100%;

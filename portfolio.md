@@ -5,12 +5,15 @@ description: We are a Medicine Hat based Website Design company that works with 
   on projects large and small internationally. See our portfolio today!
 permalink: "/portfolio"
 ---
+<div class="ie-11">
 <div class="parallax-main parallax-portfolio-first">
 <h1>About us</h1>
 <a href="#scrolldown" class="chevron-down">
 <i class="fas fa-angle-down"></i>
 </a>
 </div>
+</div>
+<div class="ie-11">
 <div class="parallax-main parallax-block" id="scrolldown">
 <div class="content">
 <h2>Introduction</h2>
@@ -18,11 +21,15 @@ permalink: "/portfolio"
 <p>I started Wolkowski Web Design in 2017 as a means to help local companies improve their online presense and I have since had the opportunity to work on many projects large and small ranging from <a href="#projects" onclick="return false;">local businesses</a> to <a href="#projects">promising tech-startups.</a></p> <p>	I take much pride in my work, and pay very close attention to detail. I can provide full professional website and marketing solutions all while keeping the process head-ache free for you!</p>
 </div>
 </div>
+</div>
 
+<div class="ie-11">
 <div class="parallax-main parallax-portfolio-second" id="projects">
 <h2 id="large-text">Project Examples</h2>
 </div>
+</div>
 
+<div class="ie-11">
 <div class="parallax-main parallax-block">
 <div class="content">
 <h2>Clients and Projects</h2>
@@ -45,6 +52,7 @@ permalink: "/portfolio"
 <a target="_blank" href="https://haste.net">
 <img src="/assets/images/ww-haste.jpg"></a>
 <p><strong>Front-End Design + Content Creation</strong><br>Haste is a tech startup that provides a service for gamers. I assisted with the resdesign of many pages on their marketing website and created much of the content for their blog and social channels.<br><br><a target="_blank" href="https://haste.net">See Haste >></a></p>
+</div>
 </div>
 </div>
 </div>

@@ -3,12 +3,15 @@ layout: default
 title: Websites Done Right
 description: Wolkowski Web Design is based in Medicine Hat, Alberta. We specialize in creating beautiful, responsive, and functional websites. Ask us for a free quote today! 
 ---
+<div class="ie-11">
 <div class="parallax-main parallax-first">
 	<h1>Websites done right</h1>
     <a href="#scrolled" class="chevron-down">
         <i class="fas fa-angle-down"></i>
     </a>
 </div>
+</div>
+<div class="ie-11">
 <div class="parallax-main parallax-block" id="scrolled">
 	<div class="content">
     <h2>The website you deserve!</h2>
@@ -18,13 +21,18 @@ description: Wolkowski Web Design is based in Medicine Hat, Alberta. We speciali
 <p>We offer premium custom designed websites, bootstrap websites, and landing pages.<br><a href="/portfolio#projects">Click here to see our work.</a></p>
 	</div>
 </div>
+</div>
+<div class="ie-11">
 <div class="parallax-main parallax-second">
 	<h2 id="large-text">User Experience First</h2>
 </div>
+</div>
+<div class="ie-11">
 <div class="parallax-main parallax-block">
 	<div class="content">
     <h2>Websites created for People, not Robots*</h2>
     <p>Every project we create, we start our design with the end-user in mind. Our websites are created to provide the best user experience possible by designing responsive first and following best practices to create a website that your customers can navigate easily.<br><br><strong>What this means</strong> is that once we are finished, your website will function in a smart, practical manner on all devices and screen sizes without sacrificing a beautiful user interface.</p>
     <h3>*Our websites are hand coded following best-practices for SEO to appease our <strike>search engine</strike> ROBOT overlords.</h3>
 	</div>
+</div>
 </div>
