@@ -37,7 +37,7 @@ $bg-image: url($baseurl + "/assets/images/stormy-field-bg.jpg");
 $bg-image-2: url($baseurl + "/assets/images/stormy-bg.jpg");
 $bg-image-3: url($baseurl + "/assets/images/white-bricks.jpg");
 $lp-skew: skew(-50deg, 30deg) scale(0.5);
-$lp-unskew: skew(0deg) scale(1);
+$lp-unskew: skew(0deg);
 $lp-btn-skew: skew(-10deg);
 
 // Fonts

@@ -223,11 +223,11 @@ a.nav-link:hover {
         left: 0;
         right: 0;
         border: 2px solid $dark-color;
-        transition: .5s ease-out;
         transform: $lp-btn-skew;
         -webkit-transform: $lp-btn-skew;
         -moz-transform: $lp-btn-skew;
         -o-transform: $lp-btn-skew;
+        transition:all 0.5s ease-out;
     }
     button:hover {
         cursor: unset;
@@ -237,13 +237,13 @@ a.nav-link:hover {
     button:focus {
         outline: none;
     }
-    button:hover:before {
-        content: "";
+    button:hover::before {
+        content:"";
         border-color: $main-color;
-        -webkit-transform: none;
-        -moz-transform: none;
-        -o-transform: none;
-        transform: none;
+        -webkit-transform: $lp-unskew;
+        -moz-transform: $lp-unskew;
+        -o-transform: $lp-unskew;
+        transform: $lp-unskew;
     }
 }
 
@@ -283,6 +283,7 @@ a.nav-link:hover {
     background-attachment: fixed;
     min-height: 50vh;
     background-image: $bg-image-2; 
+    z-index: 2;
     p {
         color: $dark-color;
         font-family: $lp-font-3;
@@ -514,9 +515,6 @@ a.nav-link:hover {
         min-width: 100% !important;
         min-height: auto !important;
 
-    }
-    .square-shape:before {
-        height: 155px;
     }
     .parallax-lp {
         z-index: 2;
