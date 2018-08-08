@@ -80,7 +80,11 @@
     transform: scale(1.05);
 }
 
-.price-box h2:after {
+.gloss {
+    position: relative;
+}
+
+.gloss:after {
         content: "";
         position: absolute;
         border-top-left-radius: 10px;
@@ -95,25 +99,34 @@
         margin: 0;
     }
 
+    .monthly-bg {
+        background: $monthly-color;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 10px;
+        display:flex;
+    }
+    .monthly-bg:after {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
 .monthly {
+    h2 {
+        color: #fff;
+        padding:25px;
+        margin:auto;
+        background: none;
+        align-self: center;
+    }
+    h2:after {
+        content: none;
+    }
     display: inline-flex;
     border-radius: 10px;
     max-width: 1025px;
     flex: 75%;
-    h2 {
-        background: $monthly-color;
-        float: left;
-        border-top-right-radius: 0px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 10px;
-    }
-    h2:after {
-        border-top-right-radius: 0px;
-        border-top-left-radius: 0px;
-    }
     h3 {
         align-self: center;
-        float:left;
         margin: 0px;
         padding: 25px;
     }
@@ -159,9 +172,38 @@
 @media only screen and (max-width: 768px) {
     .pricing {
         display: block;
+        max-width: 100%;
+        margin: auto auto;
     }
 
     .price-box {
-        margin: 35px;
+        margin: 35px auto;
+        max-width: 95%;
     }
+
+    .monthly-bg {
+        border-bottom-left-radius: 0px;
+    }
+
+    .monthly {
+        margin: 35px auto;
+        display: block;
+        ul {
+        justify-content: center;
+            li {
+                border-top: 1px solid #ededed;
+                border-left: none;
+            }
+        }
+    }
+    
+    .addons {
+        ul {
+            float: none !important;
+            li {
+                display: block;
+            }
+        }
+    }
+
 }
