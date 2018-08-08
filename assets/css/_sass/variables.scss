@@ -20,6 +20,14 @@ $box-transition-2: .5s ease-in-out;
 $box-transition-3: .6s .3s ease-in-out;
 $disabled-color: #5a5a5a;
 
+// Pricing Page
+$starter-color: linear-gradient(135deg, #0fff43, #1690d8);
+$starter-button: linear-gradient(135deg, #1690d8, #0fff43);
+$pro-color: linear-gradient(135deg, #367bf1, #ff006a);
+$premium-color: linear-gradient(135deg, red, #ffdf00);
+$monthly-color: linear-gradient(135deg, #ff0000, #ff0076);
+$gloss: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,.2));
+
 // Landing Page
 // $main-color: #ff0c0c;
 $main-color: #0cb0ff;
@@ -39,6 +47,22 @@ $bg-image-3: url($baseurl + "/assets/images/white-bricks.jpg");
 $lp-skew: skew(-50deg, 30deg) scale(0.5);
 $lp-unskew: skew(0deg);
 $lp-btn-skew: skew(-10deg);
+
+// Gradient Nav
+$gradient-nav: linear-gradient(
+hsl(0, 0%, 0%) 0%,
+hsla(0, 0%, 0%, 0.738) 19%,
+hsla(0, 0%, 0%, 0.541) 34%,
+hsla(0, 0%, 0%, 0.382) 47%,
+hsla(0, 0%, 0%, 0.278) 56.5%,
+hsla(0, 0%, 0%, 0.194) 65%,
+hsla(0, 0%, 0%, 0.126) 73%,
+hsla(0, 0%, 0%, 0.075) 80.2%,
+hsla(0, 0%, 0%, 0.042) 86.1%,
+hsla(0, 0%, 0%, 0.021) 91%,
+hsla(0, 0%, 0%, 0.008) 95.2%,
+hsla(0, 0%, 0%, 0.002) 98.2%,
+hsla(0, 0%, 0%, 0) 100%);
 
 // Fonts
 @import url("https://use.typekit.net/foo6vcw.css");

@@ -125,6 +125,18 @@ img {
   min-height:70vh;
 }
 
+.parallax-pricing {
+  background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+  background-position: bottom;
+  min-height:100vh;
+}
+
+.parallax-pricing-second {
+  background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+  background-position: bottom;
+  min-height:70vh;
+}
+
 .parallax-contact {
   background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
   min-height: 100vh;
@@ -185,6 +197,19 @@ img {
         color: #000;
         margin: 10px;
     }
+}
+
+.pricing {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    p {
+        line-height: 1.6em;
+        font-size: 1.3em;
+    }
+}
+
+.price-box {
 }
 
 .box {

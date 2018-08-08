@@ -1,4 +1,15 @@
+.gradient-background {
+    position: absolute;
+    top: 0;
+    background: $gradient-nav;
+    height: 155px;
+    opacity: 0.7;
+    width: 100%;
+    z-index: 2;
+}
+
 .navbar-custom {
+  z-index: 10;
   position: absolute;
   top: 0;
   left :0;
@@ -63,6 +74,14 @@ Menu Desktop View
 **/
 
 @media only screen and (min-width: 768px) {
+.gradient-background {
+    position: fixed;
+    top: 0;
+    background: $gradient-nav;
+    height: 125px;
+    width: 100%;
+    z-index: 2;
+}
 .navbar-custom {
 	width: 100%;
 	z-index: 100;
