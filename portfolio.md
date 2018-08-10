@@ -51,7 +51,7 @@ permalink: "/portfolio"
 <hr>
 <a target="_blank" href="https://haste.net">
 <img src="/assets/images/ww-haste.jpg"></a>
-<p><strong>Front-End Design + Content Creation</strong><br>Haste is a tech startup that provides a service for gamers. I assisted with the resdesign of many pages on their marketing website and created much of the content for their blog and social channels.<br><br><a target="_blank" href="https://haste.net">See Haste >></a></p>
+<p><strong>Front-End Design + Content Creation</strong><br>Haste is a tech startup that provides a service for gamers. I assisted with the redesign of many pages on their marketing website and created much of the content for their blog and social channels.<br><br><a target="_blank" href="https://haste.net">See Haste >></a></p>
 </div>
 </div>
 </div>
