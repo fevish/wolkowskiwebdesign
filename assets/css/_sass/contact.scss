@@ -73,3 +73,136 @@ fieldset {
     margin: 10px;
 }
 
+// Order Form
+
+label {
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 10px;
+    margin: 5px;
+    width: 90%;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+    justify-content: center;
+        h2 {
+            margin: 0px !important;
+            color: #fff !important;
+        }
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+}
+input[type="checkbox"] {
+    opacity: 0;
+}
+
+input[type="checkbox"]:active ~ label {
+    opacity: 1;
+}
+
+.order-input {
+    display: block;
+    margin: 15px 0px 25px 0px;
+    input[type="checkbox"]:checked ~ label {
+        transform: scale(1.1);
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        &:after {
+        content: "";
+        position: absolute;
+        border-radius: 10px;
+        z-index: 100;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 50%;
+        background: $gloss;
+        padding: 0;
+        margin: 0;
+    }
+    }
+    #order-1 {
+        input[type="checkbox"]:checked ~ label {
+            opacity: 1;
+            background: $starter-color;
+        }
+    }
+    #order-2 {
+        input[type="checkbox"]:checked ~ label {
+            opacity: 1;
+            background: $pro-color;
+        }
+    }
+    #order-3 {
+        input[type="checkbox"]:checked ~ label {
+            opacity: 1;
+            background: $premium-color;
+        }
+    }
+
+    #order-4 {
+        input[type="checkbox"]:checked ~ label {
+            opacity: 1;
+            background: $promo-color;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    label {
+        width: 90%;
+        justify-content: center;
+        &:hover, &:focus, &:active {
+            background: #000;
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    label {
+        display: inline-flex;
+        &:hover, &:focus, &:active {
+            opacity: 1;
+            color: #fff;
+            transform: scale(1.1);
+        }
+    }
+    .pricingform {
+        input[type=text],[type=email], select, textarea {
+            font-size: 1.3em;
+        }
+    }
+    .order-input {
+        display: flex;
+        margin: 15px 0px 25px 0px;
+        label {
+            padding: 15px;
+            &:hover, &:focus, &:active {
+                background: #000;
+            }
+        }
+        #order-1 {
+            label {
+                &:hover, &:focus, &:active {
+                }
+            }
+        }
+        #order-2 {
+            label {
+                &:hover, &:focus, &:active {
+                }
+            }
+        }
+        #order-3 {
+            label {
+                &:hover, &:focus, &:active {
+                }
+            }
+        }
+        #order-4 {
+            label {
+                &:hover, &:focus, &:active {
+                }
+            }
+        }
+    }
+}

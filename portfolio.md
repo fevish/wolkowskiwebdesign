@@ -37,22 +37,18 @@ permalink: "/portfolio"
 </div>
 <div class="clients">
 <div class="box">
-<hr>
-<a target="_blank" href="https://www.hatliquor.ca">
-<img src="/assets/images/ww-hatliquor.jpg"></a>
+<img src="/assets/images/ww-hatliquor.jpg">
 <p><strong>Marketing Website</strong><br>Hat Liquor requested a website that captures the beautiful design of their storefront while also marketing their competitive advantage: Local same-day liquor deliveries!<br><br><a target="_blank" href="https://www.hatliquor.ca">See Hat Liquor >></a></p>
 </div>
 <div class="box">
-<hr>
-<a target="_blank" href="https://www.sewline.ca"><img src="/assets/images/ww-sewline.jpg"></a>
+<img src="/assets/images/ww-sewline.jpg">
 <p><strong>Marketing Website</strong><br>Sewline Upholstery is the most reputable upholstery business in Medicine Hat, Alberta. Their request was a modern website that was both functional and marketed well toward their clientele.<br><br><a target="_blank" href="https://www.sewline.ca">See Sewline Upholstery >></a></p>
 </div>
 <div class="box">
-<hr>
-<a target="_blank" href="https://haste.net">
-<img src="/assets/images/ww-haste.jpg"></a>
+<img src="/assets/images/ww-haste.jpg">
 <p><strong>Front-End Design + Content Creation</strong><br>Haste is a tech startup that provides a service for gamers. I assisted with the redesign of many pages on their marketing website and created much of the content for their blog and social channels.<br><br><a target="_blank" href="https://haste.net">See Haste >></a></p>
 </div>
 </div>
 </div>
 </div>
+{% include _contact.html %}

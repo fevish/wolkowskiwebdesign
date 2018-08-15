@@ -35,126 +35,126 @@ img {
 
 @media only screen and (max-width: 768px) {
 
-.parallax-main {
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  padding: 30px 0px 30px 0px;
-  margin: 0px;
-  padding: 30px 0px 30px 0px;
-	width: 100%;
-  text-align: center;
-	h1, #large-text {
-		color: $text-color;
-		margin-top: 55px;
-		font-size: 3.5em;
-    text-transform: capitalize;
-		text-shadow: 1px 1px #000;
-		text-align: center;
-	}
-  h3 {
-    font-size: 1em;
-  }
-}
+    .parallax-main {
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 30px 0px 30px 0px;
+        margin: 0px;
+        padding: 30px 0px 30px 0px;
+        width: 100%;
+        text-align: center;
+        h1, #large-text {
+            color: $text-color;
+            margin-top: 55px;
+            font-size: 3.5em;
+            text-transform: capitalize;
+            text-shadow: 1px 1px #000;
+            text-align: center;
+        }
+        h3 {
+            font-size: 1em;
+        }
+    }
 
 }
 /* Scroll Effect */
 
 .parallax-main {
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  padding: 30px 0px 30px 0px;
-  margin: 0px;
-  padding: 30px 0px 30px 0px;
-	width: 100%;
-  text-align: center;
-	h1, #large-text {
-		color: $text-color;
-		margin-top: 55px;
-		font-size: 3.5em;
-    text-transform: capitalize;
-		text-align: center;
-    font-weight: 600;
-	}
-  h3 {
-    font-size: 1em;
-  }
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 30px 0px 30px 0px;
+    margin: 0px;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+    text-align: center;
+    h1, #large-text {
+        color: $text-color;
+        margin-top: 55px;
+        font-size: 3.5em;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: 600;
+    }
+    h3 {
+        font-size: 1em;
+    }
 }
 
 .parallax-block {
-  background-color: #eee;
-  min-height: 50vh;
-  border-top: 3px solid #000;
-  border-bottom: 3px solid #000;
-  h2 {
-    color: #000;
-  }
+    background-color: #eee;
+    min-height: 50vh;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    h2 {
+        color: #000;
+    }
 }
 
 .parallax-first {
-  background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
-  min-height:100vh;
+    background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
+    min-height:100vh;
 }
 .parallax-second {
-  background-image: url($baseurl + "/assets/images/ww-bg-2.jpg");
-  min-height: 70vh;
+    background-image: url($baseurl + "/assets/images/ww-bg-2.jpg");
+    min-height: 70vh;
 }
 .parallax-third {
-  background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
-  min-height: 70vh;
+    background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
+    min-height: 70vh;
 }
 
 .parallax-portfolio-first {
-  background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
-  min-height:100vh;
+    background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
+    min-height:100vh;
 }
 
 .parallax-portfolio-second {
-  background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
-  min-height:70vh;
+    background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
+    min-height:70vh;
 }
 
 .parallax-pricing {
-  background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
-  background-position: bottom;
-  min-height:100vh;
+    background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+    background-position: bottom;
+    min-height:100vh;
 }
 
 .parallax-pricing-second {
-  background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
-  background-position: bottom;
-  min-height:70vh;
+    background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+    background-position: bottom;
+    min-height:70vh;
 }
 
 .parallax-contact {
-  background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-	border: none;
+    background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 
 .contactform {
-  width: 95%;
-  margin: 0 auto 0 auto;
-  justify-content: center;
-  align-items: center;
-  background-color: #eee;
-  border: 3px solid #000; 
-  border-radius: 10px;
-  padding: 5px;
+    width: 95%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border: 3px solid #000; 
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .chevron-down {
@@ -172,9 +172,9 @@ img {
 
 
 #contact {
-  h2 {
-    margin-bottom:15vh;
-  }	
+    h2 {
+        margin-bottom:15vh;
+    }	
 }
 
 /* Content */
@@ -213,18 +213,55 @@ img {
 }
 
 .box {
-				padding: 0px 0px 0px 0px;
-				hr {
-									width: 90%;
-									border-top: 1.5px solid black;
-									margin-bottom: 35px;
-									margin-top: 35px;
-					}
-
-				img {
-								border-radius: 50%;
-								border: 2px solid #000;
-				}
+    width: 300px;
+    max-height: 300px;
+    -webkit-transition: $box-transition;
+    -moz-transition: $box-transition;
+    -o-transition: $box-transition;
+    transition: $box-transition; 
+    border: 2px #000 solid;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 0px;
+    p {
+        visibility: hidden;
+        opacity: 0;
+        font-size: 1.1em;
+        -webkit-transition: $box-transition-2;
+        -moz-transition: $box-transition-2;
+        -o-transition: $box-transition-2;
+        transition: $box-transition-2; 
+    }
+    img {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+        border-radius:50%;
+        filter: saturate(.2);
+        -webkit-transition: $box-transition;
+        -moz-transition: $box-transition;
+        -o-transition: $box-transition;
+        transition: $box-transition; 
+    }
+}
+.box:hover {
+    max-height: 999px;
+    padding: 25px;
+    margin: 0px;
+    border-radius: 10px;
+    p {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: $box-transition-3;
+        -moz-transition: $box-transition-3;
+        -o-transition: $box-transition-3;
+        transition: $box-transition-3; 
+    }
+    img {
+        filter: saturate(1);
+    }
 }
 
 .clients {
@@ -256,9 +293,9 @@ img {
 
 // Fixes collapse glitch
 .collapse.collapse.in {
-      display: block!important;
+    display: block!important;
 
-  }
+}
 
 body::-webkit-scrollbar {
     width: 8px;

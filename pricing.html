@@ -4,6 +4,7 @@ title: Pricing
 description: Website Pricing -- Whether your business or startup is small or large, early or matured, Wolkowski Web Design can create a website that expresses your brand the right way.
 permalink: "/pricing"
 ---
+
 <div class="ie-11">
     <div class="parallax-main parallax-pricing">
         <h1>Website Pricing</h1>
@@ -16,18 +17,31 @@ permalink: "/pricing"
 <div class="ie-11">
 <div class="parallax-main parallax-pricing-second" id="scrolldown">
         <div class="pricing">
+            <div class="price-box" id="promo">
+                <h2 class="gloss">Summer Promo Website</h2>
+                <h3>$1000</h3>
+                <ul>
+                    <li>1 Page Template</li>
+                    <li>Responsive</li>
+                    <li>SEO Essentials</li>
+                    <li>Contact Form</li>
+                    <li><strong>Limited Time Offer</strong></li>
+                    <li><strong><a href="{{ site.baseurl}}/articles/1000-dollar-website">More Details</a></strong></li>
+                </ul>
+                <p><a href="#contact" id="order-button">Order Promo</a></p>
+            </div>
             <div class="price-box" id="starter">
                 <h2 class="gloss">Starter Website</h2>
                 <h3>$3500</h3>
                 <ul>
                     <li>3 Page Template</li>
                     <li>Responsive</li>
-                    <li>X</li>
                     <li>SEO Essentials</li>
-                    <li>X</li>
                     <li>Contact Form</li>
+                    <li>X</li>
+                    <li>X</li>
                 </ul>
-                <button id="order-button">Order Starter</button>
+                <p><a href="#contact" id="order-button">Order Starter</a></p>
             </div>
             <div class="price-box" id="pro">
                 <h2 class="gloss">Pro Website</h2>
@@ -35,12 +49,14 @@ permalink: "/pricing"
                 <ul>
                     <li>5 Page Template</li> 
                     <li>Responsive</li>
-                    <li>Content Provided</li>
                     <li>SEO Essentials</li>
-                    <li>Integrated Blog</li>
                     <li>Contact Form</li>
+                    <li>Content Provided</li>
+                    <li>Integrated Blog</li>
                 </ul>
-                <button id="order-button">Order Pro</button>
+                <p>
+                <a href="#contact" id="order-button">Order Pro</a>
+                </p>
             </div>
             <div class="price-box" id="premium">
                 <h2 class="gloss">Premium Website</h2>
@@ -48,18 +64,18 @@ permalink: "/pricing"
                 <ul>
                     <li>Professional Custom Design</li> 
                     <li>Responsive</li>
-                    <li>Content Provided</li>
                     <li>SEO Advanced</li>
-                    <li>Integrated Blog</li>
                     <li>Contact Form</li>
+                    <li>Content Provided</li>
+                    <li>Integrated Blog</li>
                 </ul>
-                <button id="order-button">Order Premium</button>
+                <p><a href="#contact" id="order-button">Order Premium</a></p>
             </div>
             <div class="price-box monthly">
                 <div class="monthly-bg gloss">
                 <h2>Hosting and Site Managment</h2>
                 </div>
-                <h3>$150/month</h3>
+                <h3>$150 / Month</h3>
                 <ul>
                     <li>Domain Name and Renewals</li>
                     <li>Website Hosting</li>
@@ -75,29 +91,29 @@ permalink: "/pricing"
 <div class="ie-11">
     <div class="parallax-main parallax-block">
         <div class="content">
-            <h2>Additional Addons</h2>
-            <p>All of our website bundles are entirely scaleable and upgradable. Here is a list of the most common addons and services we can add to your website.</p>
+            <h2>Easy Addons (Optional)</h2>
+            <p>All of our website bundles are entirely scalable and upgradable. Here is a list of the most common addons and services we can add to your website.</p><h3>Note: Most of these addons are included in our Pro and Premium website bundles by default.</h3>
             <div class="addons">
                     <ul id="left-addons">
                         <li>
-                            <i class="fas fa-code"></i> <h3>Additional Web Pages</h3> 
+                            <i class="fas fa-code fa-fw"></i> <h3>Additional Web Pages</h3> 
                         </li>
                         <li>
-                           <i class="fas fa-envelope"></i> <h3>Custom Email Address</h3> 
+                           <i class="fas fa-envelope fa-fw"></i> <h3>Custom Email Addresses</h3> 
                         </li>
                         <li>
-                            <i class="fas fa-chart-line"></i> <h3>Analytics, Insights and Reporting</h3>       
+                            <i class="fas fa-chart-line fa-fw"></i> <h3>Analytics, Insights and Reporting</h3>       
                         </li>
                     </ul>
                     <ul id="right-addons">
                         <li>
-                            <i class="fas fa-bookmark"></i> <h3>Integrated Blog</h3> 
+                            <i class="fas fa-bookmark fa-fw"></i> <h3>Integrated Blog</h3> 
                         </li>
                         <li>
-                            <i class="fas fa-camera"></i> <h3>Professional Photography</h3>
+                            <i class="fas fa-camera fa-fw"></i> <h3>Professional Photography</h3>
                         </li>
                         <li>
-                           <i class="fas fa-pen-fancy"></i> <h3>Written Content</h3> 
+                           <i class="fas fa-pen-fancy fa-fw"></i> <h3>Written Content</h3> 
                         </li>
                     </ul>
                 </div>
@@ -105,3 +121,4 @@ permalink: "/pricing"
         </div>
     </div>
 </div>
+{% include _pricing-form.html %}
