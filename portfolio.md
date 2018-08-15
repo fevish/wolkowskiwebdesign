@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Portfolio
-description: We are a Medicine Hat based Website Design company that works with clients
-  on projects large and small internationally. See our portfolio today!
+description: We are a Medicine Hat based Website Development company that works with clients
+  on projects of many scales. View our portfolio today!
 permalink: "/portfolio"
 ---
 <div class="ie-11">

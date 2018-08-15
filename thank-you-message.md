@@ -9,7 +9,7 @@ permalink: /thank-you-message
 
 <div class="content thank-you">
 <p><strong>Thank you for contacting us.</strong></p>
-  <p>We will get in touch with you as soon as we can!</p>
+  <p>We will be in touch with you shortly!</p>
   <a href="{{ site.baseurl }}/">Click here to return to Wolkowski Web Design's homepage. </a>
 
 </div>
