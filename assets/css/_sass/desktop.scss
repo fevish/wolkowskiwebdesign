@@ -1,7 +1,9 @@
 @media only screen and (min-width: 768px) {
     .parallax-main {
+    &:before {
+        content: "";
         background-attachment: fixed;
-        z-index: 1;
+    }
         h1, #large-text {
             font-size: 6em;
             letter-spacing: 3px;
@@ -17,35 +19,61 @@
         }
     }
 
-	.footer {
-	background-attachment: fixed;
-  padding-top: 15px;
-  padding-bottom: 15px;
-		img {
-			height: 50px;
-		}
-	}
-	.contactform {
-		width: 100%;
-    padding: 15px 5px;
-	}
+    .footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        img {
+            height: 50px;
+        }
+    }
+    .contactform {
+        width: 100%;
+        padding: 15px 5px;
+    }
 
-.clients {
-    display: inline-flex;
-    text-align: center;
-    margin: 15px;
-    p {
-        line-height: 1.6em;
-        font-size: 1.15em;
+    .clients {
+        display: inline-flex;
+        text-align: center;
+        margin: 15px;
+        p {
+            line-height: 1.6em;
+            font-size: 1.15em;
+        }
+    }
+
+    .content {
+        width: 85vw;
+        max-width: 900px;
+        height: 100%;
+    }
+    .contact-form {
+        padding: 35px 5px 35px 5px;
+        width: 55vw;
     }
 }
 
-  .content {
-      width: 85vw;
-      max-width: 900px;
-  }
-  .contact-form {
-      padding: 35px 5px 35px 5px;
-      width: 55vw;
-  }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .parallax-main {
+        &:before {
+            background-attachment: scroll;
+            position: absolute;
+        }
+    }
+    .parallax-pricing-second {
+        overflow-x: hidden;
+    }
+    .parallax-block {
+        background-color: #eee;
+        min-height: 0;
+        height: 100%;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        z-index: 100;
+        h2 {
+            color: #000;
+        }
+        &:before {
+            height: 0;
+        }
+    }
 }

@@ -36,9 +36,12 @@ img {
 @media only screen and (max-width: 768px) {
 
     .parallax-main {
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        background-size: cover;
+        &:before {
+            content: "";
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -66,9 +69,7 @@ img {
 /* Scroll Effect */
 
 .parallax-main {
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,6 +79,7 @@ img {
     margin: 0px;
     padding: 30px 0px 30px 0px;
     width: 100%;
+    height: 100%;
     text-align: center;
     h1, #large-text {
         color: $text-color;
@@ -86,10 +88,25 @@ img {
         text-transform: capitalize;
         text-align: center;
         font-weight: 600;
+        z-index: 100;
     }
     h3 {
         font-size: 1em;
     }
+    &:before {
+        content: "";
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
 }
 
 .parallax-block {
@@ -97,52 +114,80 @@ img {
     min-height: 50vh;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
+    z-index: 100;
     h2 {
         color: #000;
     }
 }
 
 .parallax-first {
-    background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
     min-height:100vh;
-}
-.parallax-second {
-    background-image: url($baseurl + "/assets/images/ww-bg-2.jpg");
-    min-height: 70vh;
-}
-.parallax-third {
-    background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
-    min-height: 70vh;
+    &:before {
+        content: "";
+        background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
+        z-index: -10;
+        position: fixed;
+    }
 }
 
+.parallax-second {
+    min-height: 70vh;
+    &:before {
+        content: "";
+        position: absolute;
+        background-image: url($baseurl + "/assets/images/ww-bg-2.jpg");
+    }
+}
+
+
 .parallax-portfolio-first {
-    background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
     min-height:100vh;
+    &:before {
+        content: "";
+        background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
+        position: fixed;
+    }
 }
 
 .parallax-portfolio-second {
-    background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
     min-height:70vh;
+    &:before {
+        content: "";
+        background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
+        position:absolute;
+    }
 }
 
 .parallax-pricing {
-    background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
-    background-position: bottom;
     min-height:100vh;
+    &:before {
+        content: "";
+        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+        background-position: bottom;
+        position: fixed;
+    }
 }
 
 .parallax-pricing-second {
-    background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
-    background-position: bottom;
     min-height:70vh;
+    &:before {
+        content: "";
+        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+        background-position: bottom;
+        position: absolute;
+    }
 }
 
 .parallax-contact {
-    background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
     min-height: 100vh;
     margin: 0;
     padding: 0;
     border: none;
+    &:before {
+        position: absolute;
+        content: "";
+        background-image: url($baseurl + "/assets/images/ww-bg-3.jpg");
+    }
 }
 
 
@@ -159,6 +204,7 @@ img {
 
 .chevron-down {
     position: absolute;
+    z-index: 190;
     bottom: 10vh;
     font-size: 3em;
     font-weight: 100;
@@ -182,6 +228,7 @@ img {
 .content {
     text-align: center;
     margin:15px 15px 15px 15px;
+    z-index: 100;
     h2 {
         margin: 0px;
         margin-bottom: 20px;

@@ -26,10 +26,12 @@ $starter-button: linear-gradient(135deg, #1690d8, #0fff43);
 $pro-color: linear-gradient(135deg, #367bf1, #ff006a);
 $premium-color: linear-gradient(135deg, red, #ffdf00);
 $monthly-color: linear-gradient(135deg, #ff0000, #ff0076);
-$promo-color: -webkit-linear-gradient(135deg, #ff0000, #ff0076);
 $gloss: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,.2));
-$promo-gloss: -webkit-linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,.3) 50%, rgba(255, 255, 255, 0) 1%);
+$promo-color-1: linear-gradient(135deg, #ff0000, #ff0076);
+$promo-gloss-1: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,.3) 50%, rgba(255, 255, 255, 0) 1%);
 
+$promo-color: -webkit-linear-gradient(135deg, #ff0000, #ff0076);
+$promo-gloss: -webkit-linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,.3) 50%, rgba(255, 255, 255, 0) 1%);
 // Landing Page
 // $main-color: #ff0c0c;
 $main-color: #0cb0ff;

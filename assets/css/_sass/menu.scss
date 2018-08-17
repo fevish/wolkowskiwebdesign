@@ -1,30 +1,37 @@
-.gradient-background {
-    position: absolute;
-    top: 0;
-    background: $gradient-nav;
-    height: 155px;
-    opacity: 0.7;
-    width: 100%;
-    z-index: 2;
-}
-
 .navbar-custom {
-    z-index: 10;
+    z-index: 200;
     position: absolute;
     top: 0;
     left :0;
-    padding: 5px;
     color: black;
+    width: 100%;
+    &:before { 
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $gradient-nav;
+        height: 155px;
+        opacity: 0.7;
+        width: 100%;
+        z-index: -1;
+    }
     img {
-        display: inline;
+        display: block;
         vertical-align: -webkit-baseline-middle;
         max-width: 70%;
+        max-height: 55px;
         transition: .2s ease-in-out;
         -webkit-transition: .2s ease-in-out;
+        padding: 10px;
     }	
     img:hover {
         transform: scale(1.02);
     }
+}
+
+.scrolled::before {
+    display: none;
 }
 
 
@@ -62,7 +69,7 @@
 
 .promo-parent {
     position: relative;
-    z-index: 10;
+    z-index: 200;
 }
 
 .promo {
@@ -158,40 +165,48 @@ Mobile Menu View Landscape
  **/
 
     @media only screen and (max-width: 768px) and (min-width: 500px) {
-    .promo {
-        position: absolute;
-        top: 155px;
-        right: 10px;
-        -webkit-transform: scale(.7);
-        -ms-transform: scale(.7);
-        transform: scale(.7);
-    }
+        .promo {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            -webkit-transform: scale(.7);
+            -ms-transform: scale(.7);
+            transform: scale(.7);
+        }
     }
 
 /** 
 Menu Desktop View
  **/
 
-    @media only screen and (min-width: 768px) {
-        .gradient-background {
-            position: fixed;
-            top: 0;
-            background: $gradient-nav;
-            height: 125px;
-            width: 100%;
-            z-index: 2;
+    @media only screen and (max-width: 768px) {
+.menu {
+    float: left;
+    ul {
+        margin: auto;
+        float: left;
+        li {
+            font-size: 1.2em;
+            line-height: 40px;
         }
+    }
+}
+    }
+    @media only screen and (min-width: 768px) {
         .navbar-custom {
             width: 100%;
-            z-index: 100;
+            z-index: 200;
             position: fixed;
             height:8vh;
+            padding: 7px;
             min-height: 50px;
             transition: 1.5s;
             vertical-align: -webkit-baseline-middle;
             -webkit-transition: 1.5s;
             img {
                 height: 100%;
+                display: inline;
+                max-height: 100px;
                 margin: 0px 0px 0px 9px;
                 padding: 0px;
             }
