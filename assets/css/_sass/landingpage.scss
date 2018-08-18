@@ -1,4 +1,3 @@
-
 // Nav
 
 .lp-nav {
@@ -6,7 +5,10 @@
     position: fixed;
     top: 25px;
     right: 25px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
     -ms-flex-direction: column;
 }
 
@@ -14,13 +16,14 @@
     content: "";
     padding: 10px 25px !important;
     margin: 5px;
-    border-radius: 0;
+    -webkit-border-radius: 0;
+            border-radius: 0;
     background-color: $dark-color;
-    box-shadow: 2px 2px 2px $light-color;
+    -webkit-box-shadow: 2px 2px 2px $light-color;
+            box-shadow: 2px 2px 2px $light-color;
     -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
-    transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+        transform: skew(-20deg);
 }
 
 a.nav-link:hover {
@@ -31,6 +34,8 @@ a.nav-link:hover {
 }
 
 .active {
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
     transition: .5s ease;
     background-color: $main-color;
     content: "";
@@ -47,7 +52,8 @@ a.nav-link:hover {
     min-height: 100%;
     z-index: -1;
     background-image: $bg-image;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-filter:grayscale(.6) contrast(1.2) brightness(.75);
@@ -64,7 +70,8 @@ a.nav-link:hover {
     height: 100%;
     z-index: 1;
     background-image: $bg-image-2;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
     -webkit-filter:blur(10px);
@@ -90,6 +97,8 @@ a.nav-link:hover {
 
 .parallax-block-lp {
     overflow: hidden;
+    background: -webkit-linear-gradient(45deg, $dark-color, #fdfdfd);
+    background: -o-linear-gradient(45deg, $dark-color, #fdfdfd);
     background: linear-gradient(45deg, $dark-color, #fdfdfd);
     min-height: 70vh;
     hr {
@@ -130,19 +139,25 @@ a.nav-link:hover {
         .lp-card {
             background: $dark-color;
             padding: 25px;
-            box-shadow: 2px 2px 5px $light-color;
+            -webkit-box-shadow: 2px 2px 5px $light-color;
+                    box-shadow: 2px 2px 5px $light-color;
             margin: 10px auto;
             min-width: 420px;
-            transform: $lp-skew;
+            -ms-transform: $lp-skew;
+                transform: $lp-skew;
             -webkit-transform: $lp-skew;
             -moz-transform: $lp-skew;
             -o-transform: $lp-skew;
+            -webkit-transition: .7s ease-in-out;
+            -o-transition: .7s ease-in-out;
             transition: .7s ease-in-out;
         }
         .lp-card:hover {
             z-index: 5;
-            box-shadow: 1px 1px 15px $light-color;
-            transform: $lp-unskew;
+            -webkit-box-shadow: 1px 1px 15px $light-color;
+                    box-shadow: 1px 1px 15px $light-color;
+            -ms-transform: $lp-unskew;
+                transform: $lp-unskew;
             -webkit-transform: $lp-unskew;
             -moz-transform: $lp-unskew;
             -o-transform: $lp-unskew;
@@ -176,9 +191,18 @@ a.nav-link:hover {
     max-width: 700px;
     max-height: 250px;
     padding: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
                             
 
@@ -211,6 +235,8 @@ a.nav-link:hover {
         line-height: 34px;
         color: $light-color;
         padding: 10px 25px;
+        -webkit-transition: .5s ease-out;
+        -o-transition: .5s ease-out;
         transition: .5s ease-out;
         outline: none;
         border: none;
@@ -223,10 +249,13 @@ a.nav-link:hover {
         left: 0;
         right: 0;
         border: 2px solid $dark-color;
-        transform: $lp-btn-skew;
+        -ms-transform: $lp-btn-skew;
+            transform: $lp-btn-skew;
         -webkit-transform: $lp-btn-skew;
         -moz-transform: $lp-btn-skew;
         -o-transform: $lp-btn-skew;
+        -webkit-transition:all 0.5s ease-out;
+        -o-transition:all 0.5s ease-out;
         transition:all 0.5s ease-out;
     }
     button:hover {
@@ -241,9 +270,8 @@ a.nav-link:hover {
         content:"";
         border-color: $main-color;
         -webkit-transform: $lp-unskew;
-        -moz-transform: $lp-unskew;
-        -o-transform: $lp-unskew;
-        transform: $lp-unskew;
+        -ms-transform: $lp-unskew;
+            transform: $lp-unskew;
     }
 }
 
@@ -260,6 +288,8 @@ a.nav-link:hover {
 }
 
 .scroll-down {
+    -webkit-transition: .15s ease-out;
+    -o-transition: .15s ease-out;
     transition: .15s ease-out;
     button {
         color: $dark-color;
@@ -301,16 +331,15 @@ a.nav-link:hover {
     img {
         max-height: 85px;
         width: auto;
+        -webkit-transition: .5s ease;
+        -o-transition: .5s ease;
         transition: .5s ease;
         margin-bottom: 35px;
 
     }
     img:hover {
         -webkit-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        -moz-transform: scale(1.2);
         -ms-transform: scale(1.2);
-        -moz-transform: scale(1.2);
         transform: scale(1.2);
     }
 }
@@ -342,10 +371,19 @@ a.nav-link:hover {
     height: 320px;
     padding: 0;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-align-items: center;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     i {
         height: 100px;
         width: 100px;
@@ -355,11 +393,15 @@ a.nav-link:hover {
 
     }
     i:nth-child(2) {
-        align-self: flex-start;
+        -webkit-align-self: flex-start;
+            -ms-flex-item-align: start;
+                align-self: flex-start;
     }
     i:nth-child(3) {
         float: left;
-        align-self: flex-end;
+        -webkit-align-self: flex-end;
+            -ms-flex-item-align: end;
+                align-self: flex-end;
         margin-top:-100px;
     }
     i:nth-child(4) {
@@ -367,10 +409,23 @@ a.nav-link:hover {
 }
 
 .group-of-shapes:before {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: absolute;
     top: 0;
     bottom: 100px;
@@ -389,7 +444,8 @@ a.nav-link:hover {
 // Landing Page Contact
 
 .lp-contact {
-    box-shadow: 1px 1px 2px $light-color;
+    -webkit-box-shadow: 1px 1px 2px $light-color;
+            box-shadow: 1px 1px 2px $light-color;
     margin: 35px;
     padding: 25px;
     h3 {
@@ -412,9 +468,11 @@ a.nav-link:hover {
         color: $placeholder-color;
         border-style: solid;
         padding: 7px 10px;
-        border-radius: 4px;
+        -webkit-border-radius: 4px;
+                border-radius: 4px;
         border-color: $placeholder-color;
         -webkit-transition: 0.5s ease all;
+        -o-transition: 0.5s ease all;
         transition: 0.5s ease all;
     }
 
@@ -430,6 +488,7 @@ a.nav-link:hover {
         border-color: $disabled-color;
         cursor: no-drop;
         -webkit-transition: 0.5s ease all;
+        -o-transition: 0.5s ease all;
         transition: 0.5s ease all;
     }
 
@@ -469,14 +528,70 @@ a.nav-link:hover {
         top: 0px;
         padding-top: 15px;
         padding-bottom: 35px;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
         right: 0;
         width:100%;
         left: 50%;
-        transform: translateX(-50%);
-        justify-content: center;
-        align-items: center;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
         text-align: center;
+        background: -webkit-gradient(
+        linear,
+        left top, left bottom,
+        from(hsl(0, 0%, 0%)),
+        color-stop(19%, hsla(0, 0%, 0%, 0.738)),
+        color-stop(34%, hsla(0, 0%, 0%, 0.541)),
+        color-stop(47%, hsla(0, 0%, 0%, 0.382)),
+        color-stop(56.5%, hsla(0, 0%, 0%, 0.278)),
+        color-stop(65%, hsla(0, 0%, 0%, 0.194)),
+        color-stop(73%, hsla(0, 0%, 0%, 0.126)),
+        color-stop(80.2%, hsla(0, 0%, 0%, 0.075)),
+        color-stop(86.1%, hsla(0, 0%, 0%, 0.042)),
+        color-stop(91%, hsla(0, 0%, 0%, 0.021)),
+        color-stop(95.2%, hsla(0, 0%, 0%, 0.008)),
+        color-stop(98.2%, hsla(0, 0%, 0%, 0.002)),
+        to(hsla(0, 0%, 0%, 0)));
+        background: -webkit-linear-gradient(
+        hsl(0, 0%, 0%) 0%,
+        hsla(0, 0%, 0%, 0.738) 19%,
+        hsla(0, 0%, 0%, 0.541) 34%,
+        hsla(0, 0%, 0%, 0.382) 47%,
+        hsla(0, 0%, 0%, 0.278) 56.5%,
+        hsla(0, 0%, 0%, 0.194) 65%,
+        hsla(0, 0%, 0%, 0.126) 73%,
+        hsla(0, 0%, 0%, 0.075) 80.2%,
+        hsla(0, 0%, 0%, 0.042) 86.1%,
+        hsla(0, 0%, 0%, 0.021) 91%,
+        hsla(0, 0%, 0%, 0.008) 95.2%,
+        hsla(0, 0%, 0%, 0.002) 98.2%,
+        hsla(0, 0%, 0%, 0) 100%);
+        background: -o-linear-gradient(
+        hsl(0, 0%, 0%) 0%,
+        hsla(0, 0%, 0%, 0.738) 19%,
+        hsla(0, 0%, 0%, 0.541) 34%,
+        hsla(0, 0%, 0%, 0.382) 47%,
+        hsla(0, 0%, 0%, 0.278) 56.5%,
+        hsla(0, 0%, 0%, 0.194) 65%,
+        hsla(0, 0%, 0%, 0.126) 73%,
+        hsla(0, 0%, 0%, 0.075) 80.2%,
+        hsla(0, 0%, 0%, 0.042) 86.1%,
+        hsla(0, 0%, 0%, 0.021) 91%,
+        hsla(0, 0%, 0%, 0.008) 95.2%,
+        hsla(0, 0%, 0%, 0.002) 98.2%,
+        hsla(0, 0%, 0%, 0) 100%);
         background: linear-gradient(
         hsl(0, 0%, 0%) 0%,
         hsla(0, 0%, 0%, 0.738) 19%,
@@ -508,7 +623,8 @@ a.nav-link:hover {
     .lp-card {
         width: 95% !important;
         margin: 5px auto !important;
-        transform: none !important;
+        -ms-transform: none !important;
+            transform: none !important;
         -webkit-transform: none !important;
         -moz-transform: none !important;
         -o-transform: none !important;
@@ -552,4 +668,3 @@ a.nav-link:hover {
         background-attachment: scroll;
     }
 }
-

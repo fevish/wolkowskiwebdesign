@@ -19,16 +19,15 @@
     -webkit-animation: move 50s ease infinite;
     -0-animation: move 50s ease infinite;
     -moz-animation: move 50s ease infinite;
-    animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
     position: absolute;
 }
 
 @-webkit-keyframes move {
     0% {
         -webkit-transform-origin: bottom right;
-        -moz-transform-origin: bottom right;
         -ms-transform-origin: bottom right;
-        -o-transform-origin: bottom right;
         transform-origin: bottom right;
         transform: scale(1.15);
         -ms-transform: scale(1.15);

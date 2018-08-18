@@ -13,6 +13,7 @@
     }
 
     .parallax-block {
+            min-height: 50vh;
         h2 {
             color: #000;
             text-shadow: none;
@@ -27,14 +28,17 @@
         }
     }
     .contactform {
-        width: 100%;
         padding: 15px 5px;
     }
 
     .clients {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         text-align: center;
         margin: 15px;
+        max-width: 100%;
         p {
             line-height: 1.6em;
             font-size: 1.15em;
@@ -43,6 +47,7 @@
 
     .content {
         max-width: 900px;
+        width: 90%;
         height: 100%;
     }
     .contact-form {
@@ -52,6 +57,13 @@
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		// Fixes IE flex issue, must be set to parent container of flex items/divs
+		.ie-11 {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+		}
     .parallax-main {
         &:before {
             background-attachment: scroll;
@@ -73,17 +85,17 @@
         }
     }
     .parallax-block {
-        background-color: #eee;
         min-height: 0;
-        height: 100%;
-        border-top: 3px solid #000;
-        border-bottom: 3px solid #000;
-        z-index: 100;
         h2 {
             color: #000;
         }
         &:before {
             height: 0;
+        }
+    }
+    label {
+        h2 {
+            white-space: normal !important;
         }
     }
 }
