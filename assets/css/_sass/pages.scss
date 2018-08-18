@@ -240,10 +240,14 @@ img {
 .chevron-down {
     position: absolute;
     z-index: 190;
-    bottom: 10vh;
+    bottom: 15vh;
     font-size: 3em;
     font-weight: 100;
     color: #fff !important;
+    left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
 }
 
 .chevron-down:hover {

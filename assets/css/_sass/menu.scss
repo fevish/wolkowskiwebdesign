@@ -96,8 +96,6 @@
 		margin: 0px;
 		position: absolute;
 		content: "\f0a3";
-		top: 50%;
-		left: 50%;
 		font-family: "Font Awesome 5 Free";
 		font-weight: 900;
 		background: $promo-color;
@@ -106,6 +104,8 @@
 		-webkit-text-fill-color: transparent;
 		font-size: 155px;
 		z-index: -2;
+		top: 50%;
+		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
@@ -114,14 +114,14 @@
 		border: none;
 		position: absolute;
 		content: "\f0a3";
-		top: 50%;
-		left: 50%;
 		font-family: "Font Awesome 5 Free";
 		font-weight: 900;
 		-webkit-font-smoothing: antialiased;
 		font-size: 155px;
 		z-index: -3;
 		text-shadow: 2px 2px 10px #000;
+		top: 50%;
+		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
@@ -130,8 +130,6 @@
 		border: none;
 		position: absolute;
 		content: "\f0a3";
-		top: 50%;
-		left: 50%;
 		font-family: "Font Awesome 5 Free";
 		font-weight: 900;
 		-webkit-font-smoothing: antialiased;
@@ -140,6 +138,8 @@
 		-webkit-text-fill-color: transparent;
 		font-size: 155px;
 		z-index: -1;
+		top: 50%;
+		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
@@ -166,15 +166,15 @@
 Mobile Menu View Landscape
  **/
 
-@media only screen and (max-width: 768px) and (min-width: 500px) {
-		.promo {
+@media only screen and (max-width: 767px) and (min-width: 500px) {
+    .promo {
 				position: absolute;
-				top: 75px;
-				right: 25px;
+				top: 50px;
+				right: 50px;
 				-webkit-transform: scale(.7);
 				-ms-transform: scale(.7);
 				transform: scale(.7);
-		}
+    }
 }
 
 /** 
