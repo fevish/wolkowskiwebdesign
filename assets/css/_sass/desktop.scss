@@ -13,7 +13,6 @@
     }
 
     .parallax-block {
-            min-height: 50vh;
         h2 {
             color: #000;
             text-shadow: none;
@@ -84,10 +83,6 @@
         }
     }
     .parallax-block {
-        min-height: 0;
-        h2 {
-            color: #000;
-        }
         &:before {
             height: 0;
         }
