@@ -75,3 +75,23 @@ hsla(0, 0%, 0%, 0) 100%);
 @font-face {
   font-family: Didact Gothic;
 }
+
+@mixin promo-transform {
+		-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		content: "\f0a3";
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-size: 155px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+

@@ -19,6 +19,23 @@
         }
     }
 
+    .contestrules {
+        margin: 0 auto 35px auto;
+    }
+
+    .prize {
+        display: inline-flex;
+        img {
+            transition: .5s ease-in-out;
+            height: 250px;
+            width: 250px;
+            &:hover {
+                height:350px;
+                width: 350px;
+            }
+        }
+    }
+
     .footer {
         padding-top: 15px;
         padding-bottom: 15px;
