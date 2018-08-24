@@ -177,6 +177,7 @@ img {
     display: block;
     min-height:100vh;
     padding-top: 175px; 
+    border-bottom: 3px solid #000;
     &:before {
         content: "";
         background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
