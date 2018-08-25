@@ -9,7 +9,7 @@
         <h1>{{ page.title }}</h1>
         <time>{{ page.date | date:"%B %d %Y" }}</time>
         <hr>
-        <p><img src="{{ page.image }}" alt="{{ page.image-alt }}"></p>
+        <p><img src="{% if page.image %}{{ page.image }}{% else %}{{ page.ximage }}{% endif %}" alt="{{ page.image-alt }}"></p>
         {{ content }}
         <div class="social-sharing">
         Find this post interesting?

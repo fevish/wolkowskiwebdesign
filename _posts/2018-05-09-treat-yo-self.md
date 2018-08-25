@@ -6,7 +6,7 @@ date: 2018-05-09 20:39:09 +0000
 description: Our business thrives off of word-of-mouth advertising and referrals.
   If you refer a client to us and if they sign up for a website, we will reward you
   with a gift card of your choosing. Treat Yo Self!
-image: https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg 
+ximage: https://uproxx.files.wordpress.com/2016/01/donna-tom.jpg 
 image-alt: Treat Yo Self - Donna and Tom Parks and Recreation
 image-title: Treat Yo Self
 ---

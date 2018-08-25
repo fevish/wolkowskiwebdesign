@@ -15,7 +15,7 @@ permalink: /articles
 <ul>
   {% for post in site.posts %}
     <li><a href="{{ post.url }}">
-    <img src="{{ post.image }}" alt="{{ post.image-alt }}" title="{{ post.image-title }}">
+    <img src="{% if post.image %}{{ post.image }}{% else %}{{ post.ximage }}{% endif %}" alt="{{ post.image-alt }}" title="{{ post.image-title }}">
       <h3>{{ post.title }}</h3></a>
       <time>{{ post.date | date:"%B %d %Y" }}</time>
         <hr>

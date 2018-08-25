@@ -7,26 +7,39 @@
         <meta name="author" content="Wolkowski Web Design">
         <meta name="google-site-verification" content="nfQqoe9TSpUHEB17MSLhboN2SJLDxv-uzSlPUO05dWQ" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
-        <!--  Essential META Tags -->
+
+        <!-- OG META Tags -->
+
         {% if page.title %}
-        <meta content="{{ page.title }}" property="og:title">
+        <meta content="{{ page.title }}" property="og:title" />
         {% else %}
-        <meta content="{{ site.title }}" property="og:title">
+        <meta content="{{ site.title }}" property="og:title" />
         {% endif %}
-        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+        <meta property="og:type" content="website" />
+        <meta property="fb:app_id" content="1742441909419909 "/>
+
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         <meta property="og:site_name" content="{{ site.title }}" />
         <meta property="og:locale" content="en_US" />
+
         {% if page.image %}
-        <meta property="og:image" content="{{ page.image }}" />
-        <meta name="twitter:image" content="{{ page.image }}" />
+        <meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+        <meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+        {% else if %}
+        <meta property="og:image" content="{{ page.ximage }}" />
+        <meta name="twitter:image" content="{{ page.ximage }}" />
         {% else %}
         <meta property="og:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
         <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/ww-bg-2.jpg"/>
         {% endif %}
+
         <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:card" content="summary">
         <!--  Non-Essential, But Recommended -->
-        <meta name="twitter:image:alt" content="Wolkowski Web Design">
+        <meta name="twitter:image:alt" content="Wolkowski Web Design" />
+
+        <!-- CSS and Favicon --> 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" media="all" type="text/css">
