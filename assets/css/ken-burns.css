@@ -13,12 +13,12 @@
 }
 
 .scroll-background {
-    animation: move 50s ease;
+    animation: move 30s ease;
     /* Add infinite to loop. */
-    -ms-animation: move 50s ease infinite;
-    -webkit-animation: move 50s ease infinite;
-    -0-animation: move 50s ease infinite;
-    -moz-animation: move 50s ease infinite;
+    -ms-animation: move 30s ease infinite;
+    -webkit-animation: move 30s ease infinite;
+    -0-animation: move 30s ease infinite;
+    -moz-animation: move 30s ease infinite;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     position: absolute;

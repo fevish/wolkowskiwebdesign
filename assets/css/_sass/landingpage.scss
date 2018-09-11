@@ -1,4 +1,7 @@
 // Nav
+body {
+position: relative;
+}
 
 .lp-nav {
     z-index:10;
@@ -100,7 +103,7 @@ a.nav-link:hover {
     background: -webkit-linear-gradient(45deg, $dark-color, #fdfdfd);
     background: -o-linear-gradient(45deg, $dark-color, #fdfdfd);
     background: linear-gradient(45deg, $dark-color, #fdfdfd);
-    min-height: 70vh;
+    min-height: 600px;
     hr {
         border-top: 1px solid lighten($light-color,40%);
     }
@@ -311,7 +314,7 @@ a.nav-link:hover {
 .lp-testimonials {
     position: relative;
     background-attachment: fixed;
-    min-height: 50vh;
+    min-height: 100vh;
     background-image: $bg-image-2; 
     z-index: 2;
     p {
@@ -611,8 +614,10 @@ a.nav-link:hover {
         hsla(0, 0%, 0%, 0.002) 98.2%,
         hsla(0, 0%, 0%, 0) 100%)
     }
+
     .nav-link {
     }
+
     .parallax-block-lp {
         height: 100%;
     }
@@ -653,6 +658,12 @@ a.nav-link:hover {
     .lp-testimonials {
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .scroll-background {
+        position: absolute;
+        animation: none;
+        background-attachment: scroll;
     }
     .lp-w-75 {
         width: 100% !important;
