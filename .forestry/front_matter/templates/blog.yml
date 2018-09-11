@@ -1,4 +1,5 @@
 ---
+label: blog
 hide_body: false
 is_partial: false
 fields:
@@ -54,6 +55,5 @@ fields:
   label: image-title
   description: Title of Image (SEO)
 pages:
-- _posts/2017-06-19-test-local-image.md
 - _posts/2018-05-09-treat-yo-self.md
 - _posts/2018-05-25-futuristic-websites-and-inbound-marketing.md
