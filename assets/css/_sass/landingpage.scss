@@ -448,6 +448,10 @@ a.nav-link:hover {
             box-shadow: 1px 1px 2px $light-color;
     margin: 35px;
     padding: 25px;
+    .g-recaptcha {
+        margin: 15px auto;
+        padding: 0px;
+    }
     h3 {
         font-family: $lp-font-2;
         color: $light-color;
@@ -637,13 +641,18 @@ a.nav-link:hover {
     }
     .lp-contact {
         max-width: 95%;
-        margin: 0 5px;
+        margin: 0 auto;
+        padding: 5px;
     }
     .parallax-background,
     .lp-testimonials,
     .testimonial-bg {
         background-attachment: scroll;
         background-position: center;
+    }
+    .lp-testimonials {
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .lp-w-75 {
         width: 100% !important;
