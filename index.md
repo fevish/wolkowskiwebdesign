@@ -18,7 +18,7 @@ description: Wolkowski Web Design is based in Medicine Hat, Alberta. We speciali
     <p>Whether you are a company, business, or professional, your online presence is essential in our technology-centric world. Wolkowski Web Design is passionate about supplying you with the website you deserve, and executing your web-based business and marketing in a professional manner.</p>
 <br>
 <h2>Whatever your business needs, we have a solution!</h2>
-<p>We offer an <a href="{{ site.baseurl}}/pricing#scrolldown">assortment of website bundles</a> that cater to the scale and needs of our customers. Our primary focus is creating beautiful and funtional websites that represent our client's branding to the highest standard of excellence. <a href="/portfolio#projects">Visit our portfolio</a> to see some examples of projects and clients we have worked with.</p>
+<p>We offer an <a href="{{ site.baseurl}}/pricing#scrolldown">assortment of website bundles</a> that cater to the scale and needs of our customers. Our primary focus is creating beautiful and functional websites that represent our client's branding to the highest standard of excellence. <a href="/portfolio#projects">Visit our portfolio</a> to see some examples of projects and clients we have worked with.</p>
 	</div>
 </div>
 </div>
