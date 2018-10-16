@@ -5,7 +5,6 @@ title: Articles
 description: Wolkowski Web Design creates beautiful websites for clients of all sizes. Our blog contains articles about our work and services, and showcases clients and companies we work with!
 permalink: /articles
 ---
-{% include _promo.html %}
 <div class="fixed-background">
 </div>
 <div class="parallax-main parallax-blog">
