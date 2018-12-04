@@ -57,6 +57,7 @@ img {
     width: 100%;
     height: 100%;
     text-align: center;
+    z-index: 100;
     h1, #large-text {
         color: $text-color;
         margin-top: 55px;
@@ -89,7 +90,7 @@ img {
     background-color: #eee;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
-    z-index: 100;
+    z-index: 15;
     h2 {
         color: #000;
     }
@@ -100,10 +101,11 @@ img {
 
 .parallax-first {
     min-height:100vh;
+    z-index: 10;
     &:before {
         content: "";
         background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
-        z-index: -10;
+        z-index: 5;
         -webkit-background-size: cover;
         background-position: center top;
         position: absolute;
@@ -125,7 +127,7 @@ img {
     &:before {
         content: "";
         background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
-        z-index: -10;
+        z-index: 5;
         -webkit-background-size: cover;
         background-position: center top;
         position: absolute;
@@ -143,22 +145,12 @@ img {
 
 .parallax-pricing {
     min-height:100vh;
-    &:before {
-        content: "";
-        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
-        background-position: bottom;
-        position: fixed;
-    }
+    z-index: 15;
 }
 
 .parallax-pricing-second {
+    z-index: 15;
     min-height:70vh;
-    &:before {
-        content: "";
-        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
-        background-position: bottom;
-        position: absolute;
-    }
 }
 
 .parallax-contact {
@@ -181,7 +173,7 @@ img {
     &:before {
         content: "";
         background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
-        z-index: -10;
+        z-index: 5;
         -webkit-background-size: cover;
         background-position: center bottom;
         position: absolute;
@@ -238,7 +230,7 @@ img {
 
 .chevron-down {
     position: absolute;
-    z-index: 190;
+    z-index: 200;
     bottom: 15vh;
     font-size: 3em;
     font-weight: 100;
@@ -253,7 +245,23 @@ img {
     bottom: 14vh;
 }
 
-
+.fixed-background {
+    &:before {
+        content: "";
+        background-image: url($baseurl + "/assets/images/ww-bg-1.jpg");
+        position:fixed;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+}
+.pricing-bg {
+    &:before {
+        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+    }
+}
 
 #contact {
     h2 {
@@ -266,7 +274,7 @@ img {
 .content {
     text-align: center;
     margin:15px 15px 15px 15px;
-    z-index: 100;
+    z-index: 15;
     padding: 35px 0px;
     h2 {
         margin: 0px;
@@ -289,6 +297,7 @@ img {
     display: block;
     text-align: center;
     margin: 15px;
+    z-index: 15;
     p {
         line-height: 1.6em;
         font-size: 1.3em;
@@ -317,6 +326,7 @@ img {
             align-items: center;
     margin: 15px;
     padding: 0px;
+    z-index: 15;
     p {
         visibility: hidden;
         opacity: 0;

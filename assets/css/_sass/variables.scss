@@ -118,11 +118,19 @@ hsla(0, 0%, 0%, 0) 100%);
 }
 
 .section {
-    -webkit-animation-duration: .38s;
-    animation-duration: .38s;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
 }
 
+@-webkit-keyframes navReveal {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

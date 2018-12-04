@@ -3,6 +3,7 @@
     margin: 0;
     overflow: hidden;
     position: relative;
+    z-index: 90;
 }
 
 .bg-wrap-2 {
@@ -13,6 +14,7 @@
 }
 
 .scroll-background {
+    z-index: 90;
     animation: move 30s ease;
     /* Add infinite to loop. */
     -ms-animation: move 30s ease infinite;

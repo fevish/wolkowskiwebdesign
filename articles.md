@@ -3,7 +3,6 @@ layout: blog
 published: true
 title: Articles
 description: Wolkowski Web Design creates beautiful websites for clients of all sizes. Our blog contains articles about our work and services, and showcases clients and companies we work with!
-permalink: "/articles"
 ---
 <div class="fixed-background">
 </div>
