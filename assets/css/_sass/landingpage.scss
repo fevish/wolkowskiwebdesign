@@ -1,7 +1,4 @@
 // Nav
-body {
-position: relative;
-}
 
 .lp-nav {
     z-index:10;
@@ -314,6 +311,8 @@ a.nav-link:hover {
 .lp-testimonials {
     position: relative;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
     background-image: $bg-image-2; 
     z-index: 2;
@@ -672,11 +671,17 @@ a.nav-link:hover {
 
 // IE 11
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    html {
+        overflow:hidden;
+        height: 100%;
+    }
+    body {
+        position: relative;
+        overflow:auto;
+        height:100%;
+    }
     .parallax-background {
         position: absolute;
-    }
-    .testimonial-bg, .parallax-main, .lp-testimonials, .parallax-background {
-        background-attachment: scroll;
     }
     .testimonial-bg {
         background-image: none;
@@ -689,7 +694,27 @@ a.nav-link:hover {
 
 // MS Edge
 @supports (-ms-ime-align:auto) {
+    html {
+        overflow:hidden;
+        height: 100%;
+    }
+    body {
+        position: relative;
+        overflow:auto;
+        height:100%;
+    }
     .testimonial-bg, .parallax-main, .lp-testimonials, .parallax-background{
-        background-attachment: scroll;
+        background-attachment: fixed;
+    }
+    .section {
+        -webkit-animation-duration: .38s;
+        animation-duration: .38s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: opacityEdge;
+        animation-name: opacityEdge;
+    }
+    .menu ul {
+        margin: 0 25px;
     }
 }

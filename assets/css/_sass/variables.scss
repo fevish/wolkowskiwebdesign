@@ -107,15 +107,12 @@ hsla(0, 0%, 0%, 0) 100%);
         opacity: 1;
     }
 }
-@keyframes slideInUp {
+
+@-webkit-keyframes opacityEdge {
     from {
-        -webkit-transform: translate3d(0, 10px, 0);
-                transform: translate3d(0, 10px, 0);
         opacity: 0;
     }
     to {
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
         opacity: 1;
     }
 }
