@@ -118,6 +118,39 @@
 		transform: scale(1.2);
 }
 
+.number {
+    a, a:visited {
+    color: $link-color !important;
+    display: inline-flex;
+}
+    .numLink {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 2px solid $link-color;
+        border-right: 0px;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 7px 15px;
+        
+
+    } 
+    .numIcon {
+        color: $link-color;
+        background-color: #15d2a4;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 7px;
+        transition: 1s ease-in-out;
+    }
+}
+
+.number:hover {
+    .numIcon { 
+        background-color: lighten(#15d2a4, 20%);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
 		.promo {
 				position: absolute;
@@ -144,16 +177,11 @@ Mobile Menu View Landscape
     }
 }
 
-/** 
-Menu Desktop View
- **/
-
 @media only screen and (max-width: 768px) {
 		.menu {
-				float: left;
+        text-align: center;
 				ul {
 						margin: auto;
-						float: left;
 						li {
 								font-size: 1.2em;
 						}
