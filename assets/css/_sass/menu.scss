@@ -5,6 +5,9 @@
 		left :0;
 		color: black;
 		width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 		&:before { 
 				content: "";
 				position: absolute;
@@ -31,12 +34,6 @@
 				transform: scale(1.02);
 		}
 }
-
-.scrolled .navbar-custom:before {
-    background: #000;
-    height: 5vh;
-}
-
 
 .fa-2x {
 		vertical-align: middle;
@@ -225,6 +222,9 @@ Mobile Menu View Landscape
 				-webkit-transition: 1.5s;
 				-o-transition: 1.5s;
 				transition: 1.5s;
+        &:before {
+            height: 5vh;
+        }
 		}
 
 		.fa-2x {
@@ -233,7 +233,7 @@ Mobile Menu View Landscape
 		}
 
 		.menu {
-				float: right;
+        margin-right: 15px;
 				ul {
 						display: -webkit-inline-box;
 						display: -webkit-inline-flex;
@@ -243,7 +243,7 @@ Mobile Menu View Landscape
 						-webkit-align-items: center;
 						-ms-flex-align: center;
 						align-items: center;
-						margin: 0px 25px 0px 0px;
+						margin: 0px 0px 0px 0px;
 						padding: 0px;
 				}
 
