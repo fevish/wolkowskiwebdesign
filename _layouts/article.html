@@ -1,25 +1,25 @@
 {% include _head.html %}
 {% include _blog-menu.html %}
 <div class="section">
-<div class="fixed-background"></div>
-<div class="parallax-main parallax-blog">
-    <div class="content article">
-        <a href="{{ site.baseurl }}/articles" class="go-back"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
-        <br>
-        <h1>{{ page.title }}</h1>
-        <time>{{ page.date | date:"%B %d %Y" }}</time>
-        <hr>
-        <p><img src="{% if page.image %}{{ page.image }}{% else %}{{ page.ximage }}{% endif %}" alt="{{ page.image-alt }}"></p>
-        {{ content }}
-        <div class="social-sharing">
-        Find this post interesting?
-        <br>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank"><i class="fab fa-2x fa-facebook-square"></i> Share Post</a> &nbsp;&nbsp;
-        <a href="https://twitter.com/home?status=%0A{{ site.url }}{{ page.url }}%0A" target="_blank"><i class="fab fa-2x fa-twitter-square"></i> Tweet Post</a>
+    <div class="fixed-background"></div>
+    <div class="parallax-main parallax-blog">
+        <div class="content article">
+            <a href="{{ site.baseurl }}/articles" class="go-back"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
+            <br>
+            <h1>{{ page.title }}</h1>
+            <time>{{ page.date | date:"%B %d %Y" }}</time>
+            <hr>
+            <p><img src="{% if page.image %}{{ page.image }}{% else %}{{ page.ximage }}{% endif %}" alt="{{ page.image-alt }}"></p>
+            {{ content }}
+            <div class="social-sharing">
+                Find this post interesting?
+                <br>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank"><i class="fab fa-2x fa-facebook-square"></i> Share Post</a> &nbsp;&nbsp;
+                <a href="https://twitter.com/home?status=%0A{{ site.url }}{{ page.url }}%0A" target="_blank"><i class="fab fa-2x fa-twitter-square"></i> Tweet Post</a>
+            </div>
+            <a href="{{ site.baseurl }}/articles" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
         </div>
-         <a href="{{ site.baseurl }}/articles" class="go-back" style="float: none;"><i class="fas fa-arrow-circle-left"></i> Return to Articles</a>
     </div>
-</div>
 </div>
 {% include _footer.html %}
 </body>

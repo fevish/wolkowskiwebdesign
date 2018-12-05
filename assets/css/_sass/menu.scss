@@ -67,6 +67,68 @@
 		}
 }
 
+
+@keyframes grow-right {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.number {
+    a, a:visited {
+    color: $link-color !important;
+    display: inline-flex;
+}
+    .numLink {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 2px solid $link-color;
+        border-right: 0px;
+        width: 0px;
+        height: 20px;
+        transition: 0.4s ease-in-out;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 7px 15px;
+        text-align: center;
+        transform: scalex(0);
+        white-space: nowrap;
+        z-index: 5;
+    } 
+    .numIcon {
+        color: $link-color;
+        height: 20px;
+        width: 20px;
+        background-color: #3abd8e;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-radius: 5px;
+        transition: 0.4s ease-in-out;
+        align-items: center;
+        justify-items: center;
+        display: inline-flex;
+        padding: 9px;
+        z-index: 20;
+    }
+}
+
+.number:hover {
+    .numIcon { 
+        background-color: lighten(#15d2a4, 20%);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .numLink {
+        transform-origin: right;
+        animation: grow-right ease 0.4s forwards;
+        transition: 0.4s ease-in-out;
+        width: 105px;
+    }
+}
+
+// Promo Styling
 .promo-parent {
 		position: relative;
 		z-index: 1;
@@ -115,39 +177,6 @@
 		transform: scale(1.2);
 }
 
-.number {
-    a, a:visited {
-    color: $link-color !important;
-    display: inline-flex;
-}
-    .numLink {
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border: 2px solid $link-color;
-        border-right: 0px;
-        background-color: rgba(0, 0, 0, 0.2);
-        padding: 7px 15px;
-        
-
-    } 
-    .numIcon {
-        color: $link-color;
-        background-color: #15d2a4;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        padding: 7px;
-        transition: 1s ease-in-out;
-    }
-}
-
-.number:hover {
-    .numIcon { 
-        background-color: lighten(#15d2a4, 20%);
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-    }
-}
-
 @media only screen and (max-width: 500px) {
 		.promo {
 				position: absolute;
@@ -174,16 +203,53 @@ Mobile Menu View Landscape
     }
 }
 
+// Mobile View Portrait
 @media only screen and (max-width: 768px) {
+    .navbar-custom {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
 		.menu {
+        padding: 0;
         text-align: center;
-				ul {
-						margin: auto;
-						li {
-								font-size: 1.2em;
-						}
-				}
+        display: block;
+        margin: auto;
+        li {
+            display: block;
+            a, a:visited {
+                font-size: 1.6em;
+            }
+        }
 		}
+    .number {
+        .numLink {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: 2px solid $link-color;
+            border-right: 0px;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 7px 15px;
+            text-align: center;
+        } 
+        .numIcon {
+            color: $link-color;
+            background-color: #15d2a4;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            transition: 1s ease-in-out;
+            align-items: center;
+            justify-items: center;
+            display: inline-flex;
+            padding: 9px;
+        }
+    }
 }
 @media only screen and (min-width: 768px) {
 		.navbar-custom {
@@ -227,11 +293,6 @@ Mobile Menu View Landscape
         }
 		}
 
-		.fa-2x {
-				vertical-align: middle;
-				font-size: 1.7em;
-		}
-
 		.menu {
         margin-right: 15px;
 				ul {
@@ -262,12 +323,15 @@ Mobile Menu View Landscape
     z-index: 10;
     a {
         font-weight: 800;
+        padding-bottom: 5px;
+        border-bottom: 2px solid #3abd8e;
         &:hover {
             color: #fff;
         }
     }
 }
 
+/*
 .activeNav:after {
     content: "";
     // background-image: linear-gradient(90deg, red, #ff0076 80%);
@@ -277,8 +341,10 @@ Mobile Menu View Landscape
     left: 50%;
     width: 80px;
     height: 50px;
-    background: url($baseurl + "/assets/images/brush-stroke.svg") no-repeat;
-    background-size: cover;
+    background: url($baseurl + "/assets/images/brush-stroke-alt.svg") no-repeat;
+    background-size: 200%;
+    background-position: center center;
+    overflow: visible;
     z-index: -1;
     transform: translate(-50%, 0%);
     -webkit-animation-duration: .3s;
@@ -288,3 +354,4 @@ Mobile Menu View Landscape
     -webkit-animation-name: navReveal;
     animation-name: navReveal;
 }
+*/
