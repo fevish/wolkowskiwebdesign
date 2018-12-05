@@ -9,6 +9,7 @@ $spacing-unit:     30px;
 $content-width: 900px;
 $text-color:       #fff;
 $link-color:       #fff;
+$link-color-alt: #3abd8e; 
 $background-color: #19282b;
 $placeholder-color:  #000;
 // $brand-color: #cf4545;
@@ -133,5 +134,14 @@ hsla(0, 0%, 0%, 0) 100%);
     }
     to {
         opacity: 1;
+    }
+}
+// Phone Number
+@keyframes grow-right {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
     }
 }

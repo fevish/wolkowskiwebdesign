@@ -103,3 +103,13 @@ function navHighlight(elem, home, active) {
 }
 navHighlight('.menu li a', '/', 'activeNav'); /* menu link selector, home page, highlight class */
 </script>
+
+<script type="text/javascript">
+function classToggle() {
+    const navs = document.querySelectorAll('.navItems')
+
+        navs.forEach(nav => nav.classList.toggle('showNav'));
+}
+document.querySelector('.toggleNav')
+.addEventListener('click', classToggle);
+</script>
