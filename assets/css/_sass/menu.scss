@@ -79,7 +79,7 @@
 Mobile Menu View Landscape
  **/
 
-@media only screen and (max-width: 767px) and (min-width: 500px) {
+@media only screen and (max-width: 768px) and (min-width: 500px) {
     .menu {
         ul {
             display: flex;
@@ -264,7 +264,7 @@ Mobile Menu View Landscape
 
 // Desktop only
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .navbar-custom {
         z-index: 200;
         position: fixed;
@@ -329,6 +329,7 @@ Mobile Menu View Landscape
     .menu {
         display: inline-flex;
         margin-right: 15px;
+        margin-left: auto;
         ul {
             display: -webkit-inline-box;
             display: -webkit-inline-flex;
