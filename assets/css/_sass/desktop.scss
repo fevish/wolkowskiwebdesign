@@ -32,6 +32,21 @@
         }
     }
 
+    .content-block {
+        .paragraph {
+            width: 450px;
+            min-width: 450px;
+        }
+    }
+
+    .paragraph {
+            margin: 65px;
+        }
+
+    .cards {
+        display: block; 
+    }
+
     .footer {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -57,15 +72,25 @@
         }
     }
 
-    .content {
-        max-width: 900px;
-        width: 90%;
-    }
     .contact-form {
         padding: 35px 5px 35px 5px;
         width: 55vw;
     }
 }
+@media only screen and (max-width: 1300px) {
+    .parallax-block-2 {
+        flex-direction: column;
+    }
+    .content-block2 {
+        width: auto !important;
+    }
+    .psuedoImg {
+        width: 250px;
+        height: 250px;
+        padding-bottom: 0;
+    }
+}
+
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 		// Fixes IE flex issue, must be set to parent container of flex items/divs
