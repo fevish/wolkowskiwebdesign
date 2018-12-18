@@ -34,17 +34,17 @@
 
     .content-block {
         .paragraph {
-            width: 450px;
-            min-width: 450px;
+            max-width: 450px;
+            min-width: 250px;
+            margin: 10px;
         }
     }
 
     .paragraph {
-            margin: 65px;
+            margin: 35px;
         }
 
     .cards {
-        display: block; 
     }
 
     .footer {
