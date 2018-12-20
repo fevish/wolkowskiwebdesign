@@ -14,7 +14,7 @@ body {
         transition: .15s ease-in-out;
     }
     a:hover {
-        color: $link-hover-color;
+        color: darken($brand-color, 20%);
     }
     :focus {
         outline: none;
@@ -125,7 +125,8 @@ img {
         min-height: 200px;
         margin: 0px !important;
     img {
-        margin: 55px !important;
+        margin: 15px !important;
+        max-height: 55px !important;
     }
 }
     
@@ -192,7 +193,9 @@ img {
 }
 
 .contactform {
-    width: 95%;
+    width: 90%;
+    max-width: 900px;
+    display: flex;
     margin: 0 auto 0 auto;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -274,6 +277,7 @@ img {
 }
 
 .parallax-block {
+    width: 100%;
     background-color: #eee;
     display: flex;
     flex-direction: column;
@@ -294,6 +298,72 @@ img {
     z-index: 20;
     min-height: 50vh;
     padding: 60px;
+}
+
+.projects-block {
+    text-align: center;
+}
+
+.projects {
+    align-items: center;
+    img {
+        max-width: 500px;
+        min-width: 250px;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 5px;
+        border: 3px solid #000;
+        margin: 15px 40px;
+    }
+}
+
+.projects-content {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1400px;
+    padding: 55px 35px;
+    background-color: #fff;
+    &:nth-child(2n) {
+        background-color: #fff;
+        img {
+            order: 2
+        }
+    }
+}
+
+.projects-paragraph {
+    margin: 0 40px;
+    max-width: 500px;
+    p {
+        font-size: 1.4em;
+        color: #444;
+        margin: 35px 0;
+    }
+    h2 {
+        font-size: 3em;
+        margin: 0px;
+        padding: 0px;
+    }
+    h3 {
+        font-size: 1.5em;
+        color: #444;
+        text-transform: uppercase;
+        margin: 10px 0;
+        padding: 0px;
+        letter-spacing: 7px;
+    }
+    a, a:visited {
+        border: 2px solid $brand-color;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: .9em;
+        white-space: nowrap;
+        &:hover {
+            border-color: darken($brand-color, 10%);
+        }
+    }
 }
 
 .content-block {
@@ -322,7 +392,6 @@ img {
 }
 
 .content-block2 {
-    background-color: #eee;
     min-height:100%;
     text-align: center;
     align-items: center;
@@ -338,10 +407,22 @@ img {
 
 .paragraph {
     background-color: #fff;
-    padding: 15px;
+    padding: 0px;
     border-radius: 5px;
     margin: 10px;
+    max-width: 800px;
+    p {
+        margin: 15px 15px;
+    }
 }
+
+.inverted {
+    background-color: #292f37;
+    p, h2 {
+        color: #eee;
+    }
+}
+
 
 .side {
     border-radius: 5px;
@@ -352,18 +433,19 @@ img {
     margin: 0px;
     background-color: #1b2a2f;
     padding: 15px;
-    height: 90px;
+    width: auto;
     display: inline-flex;
     align-items: center;
     text-align: left !important;
     p {
-        font-size: 1.2em;
+        font-size: 1em;
         color: #ededed;
+        font-weight: 500;
     }
     .fas {
-        margin: 0px 25px;
+        margin: 0px 5px;
         border-radius: 50%;
-        font-size: 3em;
+        font-size: 2em;
         border: 6px $brand-color solid;
         color: #1b2a2f;
         line-height: 1.8em;
@@ -381,9 +463,9 @@ img {
     }
 }
 
-.cards {
+.pattern {
     background: #2d3a49;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='170' height='170' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%233b4a5c' fill-opacity='1'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-image: $pattern-bg;
 }
 
 
@@ -500,10 +582,11 @@ img {
 .box {
     width: 300px;
     max-height: 300px;
+    background-color: #eee;
     -webkit-transition: $box-transition;
     -o-transition: $box-transition;
     transition: $box-transition; 
-    border: 2px #000 solid;
+    border: 5px solid $brand-color;
     -webkit-border-radius: 50%;
             border-radius: 50%;
     -webkit-box-pack: center;
@@ -517,6 +600,9 @@ img {
     margin: 15px;
     padding: 0px;
     z-index: 15;
+    &:nth-child(2n) {
+        border: 5px solid $pink-color;
+    }
     p {
         visibility: hidden;
         opacity: 0;
