@@ -33,6 +33,7 @@ img {
 /* Scroll Effect */
 
 .parallax-main {
+    perspective: 1;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -70,6 +71,18 @@ img {
     h3 {
         font-size: 1em;
     }
+    &:before {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        content: "";
+        -webkit-background-size: cover !important;
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: center top;
+        width: 100%;
+        height: 100%;
+        }
 }
 
 .title {
@@ -79,6 +92,7 @@ img {
         text-transform: capitalize;
         letter-spacing: 3px;
         color: #fff;
+        z-index: 15;
     }
 }
 
@@ -93,21 +107,27 @@ img {
 .parallax-first {
     min-height:100vh;
     z-index: 10;
+    &:before {
+        background: url($baseurl + "/assets/images/ww-bg-1.jpg");
+    }
 }
 
 .parallax-second {
     min-height: 70vh;
     z-index: 0;
+    &:before {
+        background: url($baseurl + "/assets/images/ww-bg-2.jpg");
+    }
 }
 
 
 .parallax-portfolio-first {
     min-height:100vh;
-    background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
     z-index: 5;
-    -webkit-background-size: cover;
-    background-position: center top;
-    position: absolute;
+    &:before {
+        background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
+    }
+
 }
 
 .parallax-portfolio-second {
@@ -145,6 +165,9 @@ img {
     margin: 0;
     padding: 0;
     border: none;
+    &:before {
+        background: url($baseurl + "/assets/images/ww-bg-3.jpg");
+    }
 }
 
 .parallax-contest {
@@ -259,9 +282,9 @@ img {
     text-align: center;
     align-self:center;
     z-index: 15;
+    font-size: .8em;
     h2 {
         margin: 0px;
-        margin-bottom: 20px;
         padding: 0px;
         font-size: 1.7em;
         text-transform: capitalize;
@@ -325,6 +348,7 @@ img {
     max-width: 1400px;
     padding: 55px 35px;
     background-color: #fff;
+    text-align: left;
     &:nth-child(2n) {
         background-color: #fff;
         img {
@@ -432,7 +456,7 @@ img {
     margin-right: auto !important;
     margin: 0px;
     background-color: #1b2a2f;
-    padding: 15px;
+    padding: 7px;
     width: auto;
     display: inline-flex;
     align-items: center;
@@ -441,6 +465,7 @@ img {
         font-size: 1em;
         color: #ededed;
         font-weight: 500;
+        margin: 5px;
     }
     .fas {
         margin: 0px 5px;
@@ -490,9 +515,9 @@ img {
     position: relative;
     transition: .7s ease;
     margin: 30px;
-    width: 18%;
+    width: 200px;
+    padding-bottom: 200px;
     height: 0px;
-    padding-bottom: 18%;
     z-index: 5;
     font-size: 300%;
     border-radius: $radius1;
@@ -543,7 +568,7 @@ img {
     }
 
     &:hover {
-        transform: translate(5px) scale(1.55);
+        transform: scale(1.15);
         box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
         filter: saturate(1);
         z-index: 10;

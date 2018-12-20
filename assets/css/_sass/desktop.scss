@@ -6,6 +6,18 @@
             line-height: 1em;
             text-shadow: 1px 1px #888;
         }
+        &:before {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            content: "";
+            -webkit-background-size: cover !important;
+            background-size: cover !important;
+            background-attachment: fixed !important;
+            background-position: center top;
+            width: 100%;
+            height: 100%;
+        }
     }
 
     .parallax-block {
@@ -41,6 +53,7 @@
 
     .side {
         height: 90px;
+        padding: 15px;
         .fas {
         font-size: 3em;
         margin: 0px 25px;
@@ -56,9 +69,18 @@
         }
     }
 
+    .content {
+        font-size: 1em;
+    }
+
     .paragraph {
             margin: 35px;
         }
+
+    .pseudoImg {
+        width: 20%;
+        padding-bottom: 20%;
+    }
 
     .cards {
     }
@@ -127,6 +149,12 @@
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 		// Fixes IE flex issue, must be set to parent container of flex items/divs
+
+    .fixed-background {
+        &:before {
+            background-attachment: scroll;
+        }
+    }
 		.ie-11 {
 				display: -webkit-box;
 				display: -webkit-flex;
