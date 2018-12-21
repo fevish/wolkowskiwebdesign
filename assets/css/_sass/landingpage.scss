@@ -692,8 +692,8 @@ a.nav-link:hover {
 @supports (-ms-ime-align:auto) {
     .testimonial-bg, .lp-testimonials, .parallax-background{
         &:before {
-        background-attachment: scroll !important;
-    }
+            background-attachment: scroll !important;
+        }
     }
     .menu ul {
         margin: 0 25px;

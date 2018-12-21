@@ -7,12 +7,12 @@
             text-shadow: 1px 1px #888;
         }
         &:before {
-            position: absolute;
             top: 0px;
             left: 0px;
             content: "";
             -webkit-background-size: cover !important;
             background-size: cover !important;
+            will-change: transform;
             background-attachment: fixed !important;
             background-position: center top;
             width: 100%;
@@ -179,6 +179,11 @@
 }
 // MS Edge
 @supports (-ms-ime-align:auto) {
+    .fixed-background {
+        &:before {
+            background-attachment: scroll !important;
+        }
+    }
     .section {
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;

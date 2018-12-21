@@ -169,6 +169,7 @@
         -webkit-border-top-left-radius: 0px;
                 border-top-left-radius: 0px;
     }
+
 .monthly {
     h2 {
         color: #fff;
@@ -228,35 +229,60 @@
    }
 }
 
+
 .addons {
+    position: relative;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        text-align: start;
+        align-items:center;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        .vertical {
+            color: #999;
+            letter-spacing: 20px;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            writing-mode: vertical-lr;
+            text-orientation: sideways;
+            white-space: nowrap;
+        }
     ul {
         list-style: none;
-        font-size: 1.5em;
-        padding: 0;
+        color: #fff;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
         li {
+            background-color: $green-color;
+            border-radius: 10px;
+            padding: 10px 10px 10px 50px;
+            margin: 15px 25px;
+            position: relative;
             display: -webkit-box;
             display: -webkit-flex;
             display: -ms-flexbox;
             display: flex;
+            flex-grow: 1;
+            min-width: 250px;
             -webkit-align-self: center;
-                -ms-flex-item-align: center;
-                    align-self: center;
+            -ms-flex-item-align: center;
+            align-self: center;
             i {
-                -webkit-align-self: center;
-                    -ms-flex-item-align: center;
-                            -ms-grid-row-align: center;
-                        align-self: center;
-                padding: 0px 25px;
-                font-size: 2em;
+                position: absolute;
+                top: 50%;
+                left: -1.8em;
+                transform: translate(.5em, -50%);
+                font-size: 1.5em;
+                margin: 0 15px 0 0;
+            }
+            p {
+                color: #fff;
+                font-size: 1em;
+                margin: auto 0;
             }
         }
     }
