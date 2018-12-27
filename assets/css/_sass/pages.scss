@@ -4,6 +4,7 @@ body {
     font-family: $base-font-family;
     background: $background-color;
     -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-overflow-scrolling: touch;
     a, a:visited {
@@ -30,6 +31,10 @@ img {
     max-width: 100%;
 }
 
+strong, b {
+    font-weight: 800;
+}
+
 
 /* Scroll Effect */
 
@@ -54,7 +59,7 @@ img {
         -ms-flex-align: center;
             align-items: center;
     margin: 0px;
-    padding: 30px 0px 30px 0px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -95,6 +100,7 @@ img {
         letter-spacing: 3px;
         color: #fff;
         z-index: 15;
+        margin: 25px auto;
     }
 }
 
@@ -122,7 +128,6 @@ img {
     }
 }
 
-
 .parallax-portfolio-first {
     min-height:100vh;
     z-index: 5;
@@ -130,12 +135,6 @@ img {
         background-image: url($baseurl + "/assets/images/ww-blue-1.jpg");
     }
 
-}
-
-.parallax-portfolio-second {
-    min-height:70vh;
-    background-image: url($baseurl + "/assets/images/ww-blue-2.jpg");
-    position:absolute;
 }
 
 .brandBlock {
@@ -156,17 +155,26 @@ img {
 .parallax-pricing {
     min-height:100vh;
     z-index: 15;
+    &:before {
+        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+    }
 }
 
 .parallax-pricing-second {
     min-height:70vh;
+    &:before {
+        background-image: url($baseurl + "/assets/images/teal-mountains.jpg");
+    }
 }
 
 .parallax-contact {
-    min-height: calc(120vh - 84px);
+    min-height: calc(100vh - 84px);
     margin: 0;
     padding: 0;
     border: none;
+    h2 {
+        margin: 80px auto !important;
+    }
     &:before {
         background: url($baseurl + "/assets/images/ww-bg-3.jpg");
     }
@@ -238,6 +246,7 @@ img {
 }
 
 .chevron-down {
+    display: none;
     position: absolute;
     z-index: 200;
     bottom: 15vh;
@@ -291,6 +300,7 @@ img {
         font-size: 1.7em;
         text-transform: capitalize;
         color: #000;
+        font-weight: 600;
     }
 
     p {
@@ -299,6 +309,19 @@ img {
         color: #444;
         margin: 10px;
     }
+}
+
+    .vertical {
+        display: block;
+        letter-spacing: 20px;
+        padding: 25px;
+        font-size: 1.7em;
+        text-transform: uppercase !important;
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+        white-space: nowrap;
+    }
+.vertical {
 }
 
 .parallax-block {
@@ -331,6 +354,8 @@ img {
 
 .projects {
     align-items: center;
+    width: 100% !important;
+    background-color: #eee;
     img {
         max-width: 500px;
         min-width: 250px;
@@ -348,7 +373,7 @@ img {
     flex-direction: row;
     justify-content: center;
     max-width: 1400px;
-    padding: 55px 35px;
+    padding: 35px;
     background-color: #fff;
     text-align: left;
     &:nth-child(2n) {
@@ -362,7 +387,9 @@ img {
 .projects-paragraph {
     margin: 0 40px;
     max-width: 500px;
+    flex-direction: column !important;
     align-content: left !important;
+    align-items: left;
     text-align: left !important;
     p {
         font-size: 1.4em;
@@ -373,6 +400,7 @@ img {
         font-size: 3em;
         margin: 0px;
         padding: 0px;
+        align-self: normal;
     }
     h3 {
         font-size: 1.5em;
@@ -419,14 +447,16 @@ img {
     }
 }
 
+
 .content-block2 {
     order: 2;
     min-height:100%;
     text-align: center;
     justify-content: center;
     display: inline-flex;
-    flex-direction: column;
-    flex-basis: 100%;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
     i {
         margin:25px 0;
         font-size: 4em;
@@ -499,6 +529,9 @@ img {
     background-image: $pattern-bg;
 }
 
+.examples {
+    display: none;
+}
 
 .contentRow {
     display: flex;

@@ -9,7 +9,6 @@
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
     text-align: center;
-    margin: 100px auto;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -18,6 +17,7 @@
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
+            margin: 0px;
             p {
                 margin: 15px;
             }
@@ -241,25 +241,19 @@
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        .vertical {
-            color: #999;
-            letter-spacing: 20px;
-            font-size: 1.5em;
-            text-transform: uppercase;
-            writing-mode: vertical-lr;
-            text-orientation: sideways;
-            white-space: nowrap;
-        }
     ul {
         list-style: none;
         color: #fff;
         font-size: 1.2em;
-        display: flex;
-        flex-direction: column;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: 0px auto;
         li {
             background-color: $green-color;
             border-radius: 10px;
-            padding: 10px 10px 10px 50px;
+            padding: 10px;
             margin: 15px 25px;
             position: relative;
             display: -webkit-box;
@@ -295,10 +289,54 @@
 #right-addons {
     float: right;
 }
+
+.bundles {
+    width: 75%;
+    max-width: 1400px;
+    background-color: #fff;
+    min-height: 120px;
+    margin: 35px auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    h2, p {
+        color: #fff;
+    }
+}
+
+.bundlesHeading {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 35px;
+    color: inherit;
+    width: 100%;
+    h2 {
+        text-transform: uppercase;
+        font-size: 3.5em;
+        letter-spacing: 15px;
+        color: $pink-color;
+    }
+}
+
+.bundlesDescription {
+    color: inherit;
+    background: #18272a;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 35px;
+}
 @media only screen and (max-width: 768px) {
     .pricing {
         max-width: 100%;
         margin: auto auto;
+        padding: 0px;
     }
 
     .price-box {

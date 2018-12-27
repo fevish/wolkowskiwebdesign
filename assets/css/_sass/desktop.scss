@@ -5,6 +5,7 @@
             letter-spacing: 3px;
             line-height: 1em;
             text-shadow: 1px 1px #888;
+            margin: 0px;
         }
         &:before {
             top: 0px;
@@ -71,6 +72,7 @@
 
     .content {
         font-size: 1em;
+        width: 75%;
     }
 
     .paragraph {
@@ -80,6 +82,10 @@
     .pseudoImg {
         width: 20%;
         padding-bottom: 20%;
+    }
+
+    .examples {
+        display: inherit;
     }
 
     .cards {
@@ -108,6 +114,15 @@
             line-height: 1.6em;
             font-size: 1.15em;
         }
+    }
+    .addons ul li {
+        padding: 10px 10px 10px 50px !important;
+        margin: 15px 25px !important;
+    }
+
+    
+    .bundles {
+        flex-direction: row !important;
     }
 
     .contact-form {
@@ -175,6 +190,13 @@
         img {
             width: 500px;
         }
+    }
+    .content-block2 {
+        display: block;
+        align-items: center;
+    }
+    .vertical {
+        display: none;
     }
 }
 // MS Edge
