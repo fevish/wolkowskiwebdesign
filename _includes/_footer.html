@@ -33,15 +33,17 @@ $(function() {
 		// your current click function
 		$('.scroll').on('click', function(e) {
 				e.preventDefault();
+        var navbar = $('#navbar').height();
 				$('html, body').animate({
-						scrollTop: $($(this).attr('href')).offset().top + 'px'
+						scrollTop: $($(this).attr('href')).offset().top - navbar + 'px'
 				}, 900, 'swing');
 		});
 		// *only* if we have anchor on the url
 		if(window.location.hash) {
 				// smooth scroll to the anchor id
+        var navbar = $('#navbar').height();
 				$('html, body').animate({
-						scrollTop: $(window.location.hash).offset().top + 'px'
+						scrollTop: $(window.location.hash).offset().top - navbar + 'px'
 				}, 900, 'swing');
 		}
 });
@@ -64,8 +66,9 @@ $('a[href*="#"]')
       if (target.length) {
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
+        var navbar = $('#navbar').height();
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - navbar
         }, 1000, function() {
           // Callback after animation
           // Must change focus!

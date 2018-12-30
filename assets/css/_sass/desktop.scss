@@ -129,8 +129,14 @@
         padding: 35px 5px 35px 5px;
         width: 55vw;
     }
+    .projects-content {
+        width: 1200px;
+    }
 }
 @media only screen and (max-width: 1300px) {
+    .projects-content {
+        width: 90% !important;
+    }
     .parallax-block-2 {
         flex-direction: column;
     }
