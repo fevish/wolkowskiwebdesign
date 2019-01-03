@@ -91,9 +91,13 @@
     ul {
         display: inline-block;
         text-align: left;
-        max-width: 80%;
+        max-width: 600px;
+        margin: 20px;
     }
     li {
+        font-size: 1.4em;
+        list-style: square;
+        padding: 5px;
     }
     
     iframe {
