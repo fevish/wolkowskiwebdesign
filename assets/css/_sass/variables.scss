@@ -27,11 +27,11 @@ $pattern-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' w
 
 
 // Pricing Page
-$starter-color: linear-gradient(135deg, #0fff43, #1690d8);
+$starter-color: linear-gradient(135deg, #3abd8e, #3ab7bd);
 $starter-button: linear-gradient(135deg, #1690d8, #0fff43);
-$pro-color: linear-gradient(135deg, #367bf1, #ff006a);
-$premium-color: linear-gradient(135deg, red, #ffdf00);
-$monthly-color: linear-gradient(135deg, #ff0000, #ff0076);
+$pro-color: $pink-color;
+$premium-color: linear-gradient(135deg, #600fcb, #452f79);
+$monthly-color: #292f37;
 $gloss: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,.2));
 $promo-color-1: linear-gradient(135deg, #ff0000, #ff0076);
 $promo-gloss-1: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,.3) 50%, rgba(255, 255, 255, 0) 1%);
@@ -76,7 +76,7 @@ hsla(0, 0%, 0%, 0) 100%);
 
 // Fonts
 @import url("https://use.typekit.net/foo6vcw.css");
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Lato|Didact+Gothic|Open+Sans|Nothing+You+Could+Do|Roboto:100,400,800|Oswald:400,600|Bangers');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Lato|Didact+Gothic|Open+Sans|Nothing+You+Could+Do|Roboto:100,400,800|Oswald:400,600|Montserrat:400,500');
 
 @font-face {
   font-family: Didact Gothic;

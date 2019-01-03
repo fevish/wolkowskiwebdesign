@@ -131,6 +131,9 @@
     }
     .projects-content {
     }
+    .vertical {
+        display: block;
+    }
 }
 @media only screen and (max-width: 1300px) {
     .projects-content {
@@ -201,6 +204,13 @@
     }
     .vertical {
         display: none;
+    }
+    .strike {
+        &:after {
+            top: 50%;
+            left: 50%;
+            transform: rotate(-6deg) translate(-50%, -50%) !important;
+        }
     }
 }
 // MS Edge

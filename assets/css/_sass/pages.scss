@@ -314,7 +314,7 @@ strong, b {
 }
 
     .vertical {
-        display: block;
+        display: none;
         letter-spacing: 20px;
         padding: 25px;
         font-size: 1.7em;
@@ -323,8 +323,6 @@ strong, b {
         text-orientation: sideways;
         white-space: nowrap;
     }
-.vertical {
-}
 
 .parallax-block {
     width: 100%;
